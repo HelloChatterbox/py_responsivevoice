@@ -1,4 +1,3 @@
-import urllib
 import requests
 import subprocess
 
@@ -26,13 +25,15 @@ class ResponsiveVoice(object):
         mp3_file = mp3_file or sentence.replace(" ", "_")
         if ".mp3" not in mp3_file:
             mp3_file += ".mp3"
-        params = urllib.urlencode({"t": sentence,
-                                   "tl": lang or self.lang,
-                                   "pitch": pitch or self.pitch,
-                                   "rate": rate or self.rate,
-                                   "vol": vol or self.vol,
-                                   "sv": "g1" if gender is not None and "f" not in gender else "",
-                                   "vn": "rjs" if gender is not None and "f" not in gender else ""})
+        params = {
+            "t": sentence,
+            "tl": lang or self.lang,
+            "pitch": pitch or self.pitch,
+            "rate": rate or self.rate,
+            "vol": vol or self.vol,
+            "sv": "g1" if gender is not None and "f" not in gender else "",
+            "vn": "rjs" if gender is not None and "f" not in gender else ""
+        }
         base_url = "http://responsivevoice.org/responsivevoice/getvoice.php"
         r = requests.get(base_url, params)
         with open(mp3_file, "w") as f:

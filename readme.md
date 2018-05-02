@@ -4,7 +4,7 @@ Unofficial python API for [Responsive Voice](https://responsivevoice.org)
 
 ## install
 
-    pip install responsive_voice
+    pip install responsivevoice
 
 ## usage
 
