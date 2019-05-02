@@ -69,12 +69,15 @@ class ResponsiveVoice(object):
         return ""
 
     @staticmethod
-    def play_mp3(mp3_file, play_cmd="mpg123 %1"):
+    def play_mp3(mp3_file, play_cmd="mpg123 %1", blocking=False):
         play_mp3_cmd = str(play_cmd).split(" ")
         for index, cmd in enumerate(play_mp3_cmd):
             if cmd == "%1":
                 play_mp3_cmd[index] = mp3_file
-        return subprocess.Popen(play_mp3_cmd)
+        if blocking:
+            return subprocess.call(play_mp3_cmd)
+        else:
+            return subprocess.Popen(play_mp3_cmd)
 
     def get_mp3(self, sentence, mp3_file=None, lang=None, pitch=None,
                 rate=None, vol=None, gender=None):
@@ -105,7 +108,7 @@ class ResponsiveVoice(object):
         return mp3_file
 
     def say(self, sentence, mp3_file=None, lang=None, pitch=None, rate=None,
-            vol=None, gender=None, play_cmd="mpg123 %1"):
+            vol=None, gender=None, play_cmd="mpg123 %1", blocking=True):
         filename = self.get_mp3(sentence, mp3_file, lang=lang, pitch=pitch,
                                 rate=rate, vol=vol, gender=gender)
-        self.play_mp3(filename, play_cmd)
+        self.play_mp3(filename, play_cmd, blocking)
