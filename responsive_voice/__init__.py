@@ -6,7 +6,28 @@ import os
 
 
 class ResponsiveVoice(object):
-    def __init__(self, lang="en-us", pitch=0.5, rate=0.5, vol=1, gender="female"):
+    # Genders
+    FEMALE = "female"
+    MALE = "male"
+
+    # Languages
+    ENGLISH_GB = "en-GB"
+    ENGLISH_AU = "en-AU"
+    ENGLISH_US = "en-US"
+    HUNGARIAN = "hu-HU"
+    SPANISH = "es-ES"
+    FRENCH = "fr-FR"
+    GERMAN = "de-DE"
+    ITALIAN = "it-IT"
+    ROMANIAN = "ro-RO"
+    RUSSIAN = "ru-RU"
+    JAPANESE = "ja-JP"
+    KOREAN = "ko-KR"
+    CHINESE = "zh-CN"
+    GREEK = "el-GR"
+    HINDI = "hi-IN"
+
+    def __init__(self, lang=self.ENGLISH_US, pitch=0.5, rate=0.5, vol=1, gender=self.FEMALE):
         self.pitch = pitch
         self.rate = rate
         self.vol = vol
@@ -50,7 +71,7 @@ class ResponsiveVoice(object):
         return mp3_file
 
     def say(self, sentence, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None, play_cmd="mpg123 -q %1"):
-        filename = "tmp_"+''.join(random.choice(string.ascii_letters) for _ in range(10)) + ".mp3"
+        filename = "tmp_" + ''.join(random.choice(string.ascii_letters) for _ in range(10)) + ".mp3"
         self.get_mp3(sentence, filename, lang=lang, pitch=pitch, rate=rate, vol=vol, gender=gender)
         self.play_mp3(filename, play_cmd)
         os.remove(filename)
