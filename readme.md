@@ -1,3 +1,5 @@
+![](pyresponsive_voice.png)
+
 # Python Responsive Voice
 
 Unofficial python API for [Responsive Voice](https://responsivevoice.org)
@@ -41,7 +43,7 @@ get_mp3(text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=
 - *gender* : The gender of the speaker. E.g. `ResponsiveVoice.FEMALE`
 
 ```python
-say(self, text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None, play_cmd="mpg123 -q %1")
+say(text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None, play_cmd="mpg123 %1")
 ```
 - *text* : The text you want to speak.
 - *mp3_file* : The name of the output file. If `None`, a temporary file will be created and the text will be played in blocking mode. Otherwise it will be played without blocking.
@@ -53,11 +55,10 @@ say(self, text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gende
 - *play_cmd* : The command used to play the file.
 
 ```python
-play_mp3(self, mp3_file, play_cmd="mpg123 -q %1", blocking=False)
+play_mp3(mp3_file, play_cmd="mpg123 %1")
 ```
 - *mp3_file* : The name of the mp3 file you want to play.
 - *play_cmd* : The command used to play the file.
-- *blocking* : Wether the program should wait until speaking is finished or not.
 
 ## Credits
 
