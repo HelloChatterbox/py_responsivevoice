@@ -49,31 +49,31 @@ class ResponsiveVoice(object):
     GREEK = "el-GR"
     JAPANESE = "ja-JP"
 
-    def __init__(self, lang=self.ENGLISH_US, pitch=0.5, rate=0.5, vol=1,
-                 gender=self.FEMALE):
+    def __init__(self, lang=None, pitch=0.5, rate=0.5, vol=1, gender=None):
         self.pitch = pitch
         self.rate = rate
         self.vol = vol
-        self.lang = lang
-        self.gender = gender
+        self.lang = lang or ResponsiveVoice.ENGLISH_US
+        self.gender = gender or ResponsiveVoice.FEMALE
 
     @property
-    def sv(self)
+    def sv(self):
         if self.gender == self.MALE:
             return "g1"
         return ""
 
     @property
-    def vn(self)
+    def vn(self):
         if self.gender == self.MALE:
             return "rjs"
         return ""
 
-    def play_mp3(self, mp3_file, play_cmd="mpg123 %1"):
+    @staticmethod
+    def play_mp3(mp3_file, play_cmd="mpg123 %1"):
         play_mp3_cmd = str(play_cmd).split(" ")
         for index, cmd in enumerate(play_mp3_cmd):
             if cmd == "%1":
-                play_mp3_cmd[index] = (mp3_file)
+                play_mp3_cmd[index] = mp3_file
         return subprocess.Popen(play_mp3_cmd)
 
     def get_mp3(self, sentence, mp3_file=None, lang=None, pitch=None,
