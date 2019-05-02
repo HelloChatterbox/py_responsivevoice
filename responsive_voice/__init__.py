@@ -14,18 +14,40 @@ class ResponsiveVoice(object):
     ENGLISH_GB = "en-GB"
     ENGLISH_AU = "en-AU"
     ENGLISH_US = "en-US"
-    HUNGARIAN = "hu-HU"
-    SPANISH = "es-ES"
-    FRENCH = "fr-FR"
-    GERMAN = "de-DE"
-    ITALIAN = "it-IT"
+    ENGLISH_ZA = "en-ZA"
+    ENGLISH_IE = "en-IE"
+    HEBREW = "he-IL"
+    THAI = "th-TH"
+    PORTUGESE_BR = "pt-BR"
+    PORTUGESE_PT = "pt-PT"
+    SLOVAK = "sk-SK"
+    FRENCH_CA = "fr-CA"
     ROMANIAN = "ro-RO"
+    NORWEGIAN = "no-NO"
+    FINNISH = "fi-FI"
+    POLISH = "pl-PL"
+    GERMAN = "de-DE"
+    DUTCH = "nl-NL"
+    INDONESIAN = "id-ID"
+    TURKISH = "tr-TR"
+    ITALIAN = "it-IT"
+    FRENCH = "fr-FR"
     RUSSIAN = "ru-RU"
-    JAPANESE = "ja-JP"
+    SPANISH_MX = "es-MX"
+    SPANISH_ES = "es-ES"
+    CHINESE_HK = "zh-HK"
+    CHINESE_TW = "zh-TW"
+    CHINESE_CN = "zh-CN"
+    SWEDISH = "sv-SE"
+    HUNGARIAN = "hu-HU"
+    DUTCH_BE = "nl-BE"
+    ARABIC_SA = "ar-SA"
     KOREAN = "ko-KR"
-    CHINESE = "zh-CN"
-    GREEK = "el-GR"
+    CZECH = "cs-CZ"
+    DANISH = "da-DK"
     HINDI = "hi-IN"
+    GREEK = "el-GR"
+    JAPANESE = "ja-JP"
 
     def __init__(self, lang=self.ENGLISH_US, pitch=0.5, rate=0.5, vol=1, gender=self.FEMALE):
         self.pitch = pitch
@@ -49,7 +71,7 @@ class ResponsiveVoice(object):
         if mp3_file is None:
             mp3_file = sentence.replace(" ", "_").replace("\n", "")
             if len(mp3_file) > 20:
-                mp3_file = mp3_file[:20]
+                mp3_file = mp3_file[: 20]
 
         if not mp3_file.endswith(".mp3"):
             mp3_file += ".mp3"
