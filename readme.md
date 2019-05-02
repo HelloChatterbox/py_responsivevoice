@@ -2,6 +2,12 @@
 
 Unofficial python API for [Responsive Voice](https://responsivevoice.org)
 
+- [Python Responsive Voice](#python-responsive-voice)
+  * [Install](#install)
+  * [Example](#example)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  
 ## Install
 ```python
 pip install responsivevoice
@@ -55,7 +61,9 @@ play_mp3(self, mp3_file, play_cmd="mpg123 -q %1", blocking=False)
 
 ## Credits
 
-JarbasAI
+[ResponsiveVoice](https://responsivevoice.org/)
+
+[JarbasAI](https://jarbasal.github.io)
 
 [![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/1QJNhKM8tVv62XSUrST2vnaMXh5ADSyYP8)](https://en.cryptobadges.io/donate/1QJNhKM8tVv62XSUrST2vnaMXh5ADSyYP8)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/jarbasai)
