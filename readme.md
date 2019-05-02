@@ -5,13 +5,13 @@
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/JarbasAl)
 
 
-Unofficial python API for [Responsive Voice](https: // responsivevoice.org)
+Unofficial python API for [Responsive Voice](https://responsivevoice.org)
 
-# Install
+## Install
 ```python
 pip install responsivevoice
 ```
-# Example
+## Example
 
 ```python
 from responsive_voice import ResponsiveVoice
@@ -27,7 +27,7 @@ file_path = engine.get_mp3(u"ola mundo", lang=ResponsiveVoice.PORTUGESE_PT)
 
 engine.play_mp3(file_path)
 ```
-# Usage
+## Usage
 ```python
 get_mp3(text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None)
 ```
@@ -43,7 +43,7 @@ get_mp3(text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=
 say(self, text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None, play_cmd="mpg123 -q %1")
 ```
 - *text* : The text you want to speak.
-- *mp3_file* : The name of the output file. If `None`, a temporary file will be created.
+- *mp3_file* : The name of the output file. If `None`, a temporary file will be created and the text will be played in blocking mode. Otherwise it will be played without blocking.
 - *lang* : The language of the speaker. E.g. `ResponsiveVoice.ENGLISH_US`
 - *pitch* : The pitch of the speaker.
 - *rate* : The rate (speed) of the speaker, value between 0 and 1.
@@ -52,11 +52,12 @@ say(self, text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gende
 - *play_cmd* : The command used to play the file.
 
 ```python
-play_mp3(self, mp3_file, play_cmd="mpg123 -q %1")
+play_mp3(self, mp3_file, play_cmd="mpg123 -q %1", blocking=False)
 ```
 - *mp3_file* : The name of the mp3 file you want to play.
 - *play_cmd* : The command used to play the file.
+- *blocking* : Wether the program should wait until speaking is finished or not.
 
-# Credits
+## Credits
 
 JarbasAI
