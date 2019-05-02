@@ -1,10 +1,7 @@
 ![](pyresponsive_voice.png)
 
-# Python Responsive Voice
-
 Unofficial python API for [Responsive Voice](https://responsivevoice.org)
 
-- [Python Responsive Voice](#python-responsive-voice)
   * [Install](#install)
   * [Example](#example)
   * [Usage](#usage)
@@ -26,7 +23,7 @@ engine = ResponsiveVoice(rate=0.4, vol=0.8)
 
 engine.say("hello world", gender=ResponsiveVoice.MALE, lang=ResponsiveVoice.ENGLISH_US)
 
-file_path = engine.get_mp3(u"ola mundo", lang=ResponsiveVoice.PORTUGESE_PT)
+file_path = engine.get_mp3("ola mundo", lang=ResponsiveVoice.PORTUGESE_BR)
 
 engine.play_mp3(file_path)
 ```
