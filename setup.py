@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='ResponsiveVoice',
-    version='0.2',
+    version='0.2.2',
     packages=['responsive_voice'],
     url='https://github.com/JarbasAl/py_responsivevoice',
     license='MIT',
