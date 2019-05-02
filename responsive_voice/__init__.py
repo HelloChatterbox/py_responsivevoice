@@ -40,7 +40,7 @@ class ResponsiveVoice(object):
             "vn": "rjs" if gender is not None and "f" not in gender else ""
         }
 
-        base_url = "http://responsivevoice.org/responsivevoice/getvoice.php"
+        base_url = "https://code.responsivevoice.org/getvoice.php"
         r = requests.get(base_url, params)
         with open(mp3_file, "w") as f:
             f.write(r.content)
