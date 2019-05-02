@@ -1,5 +1,8 @@
 import requests
 import subprocess
+import random
+import string
+import os
 
 
 class ResponsiveVoice(object):
@@ -47,4 +50,7 @@ class ResponsiveVoice(object):
         return mp3_file
 
     def say(self, sentence, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None, play_cmd="mpg123 -q %1"):
-        self.play_mp3(self.get_mp3(sentence, mp3_file, lang=lang, pitch=pitch, rate=rate, vol=vol, gender=gender), play_cmd)
+        filename = "tmp_"+''.join(random.choice(string.ascii_letters) for _ in range(10)) + ".mp3"
+        self.get_mp3(sentence, filename, lang=lang, pitch=pitch, rate=rate, vol=vol, gender=gender)
+        self.play_mp3(filename, play_cmd)
+        os.remove(filename)
