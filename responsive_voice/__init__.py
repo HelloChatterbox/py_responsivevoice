@@ -14,7 +14,7 @@ class ResponsiveVoice(object):
         else:
             self.vn = self.sv = ""
 
-    def play_mp3(self, mp3_file, play_cmd="mpg123 %1"):
+    def play_mp3(self, mp3_file, play_cmd="mpg123 -q %1"):
         play_mp3_cmd = str(play_cmd).split(" ")
         for index, cmd in enumerate(play_mp3_cmd):
             if cmd == "%1":
@@ -40,7 +40,7 @@ class ResponsiveVoice(object):
             f.write(r.content)
         return mp3_file
 
-    def say(self, sentence, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None, play_cmd="mpg123 %1"):
+    def say(self, sentence, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None, play_cmd="mpg123 -q %1"):
         self.play_mp3(self.get_mp3(sentence, mp3_file, lang=lang, pitch=pitch, rate=rate, vol=vol, gender=gender), play_cmd)
 
 
