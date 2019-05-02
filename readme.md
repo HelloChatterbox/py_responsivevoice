@@ -4,13 +4,14 @@
 <span class="badge-patreon"><a href="https://www.patreon.com/jarbasAI" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/JarbasAl)
 
+
 Unofficial python API for [Responsive Voice](https: // responsivevoice.org)
 
-## Install
+# Install
 ```python
 pip install responsivevoice
 ```
-## Example
+# Example
 
 ```python
 from responsive_voice import ResponsiveVoice
@@ -26,19 +27,36 @@ file_path = engine.get_mp3(u"ola mundo", lang=ResponsiveVoice.PORTUGESE_PT)
 
 engine.play_mp3(file_path)
 ```
-## Usage
-`get_mp3(text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None)`
-- *text*: The text you want to speak.
-- *mp3_file*: The name of the output file. If `None`, this will be generated from the text.
-- *lang*: The language of the speaker. E.g. `ResponsiveVoice.ENGLISH_US`
-- *pitch*: The pitch of the speaker.
-- *rate*: The rate (speed) of the speaker, value between 0 and 1.
-- *vol*: The volume (loudness) of the speaker, value between 0 and 1.
-- *gender*: The gender of the speaker. E.g. `ResponsiveVoice.FEMALE`
+# Usage
+```python
+get_mp3(text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None)
+```
+- *text* : The text you want to speak.
+- *mp3_file* : The name of the output file. If `None`, this will be generated from the text.
+- *lang* : The language of the speaker. E.g. `ResponsiveVoice.ENGLISH_US`
+- *pitch* : The pitch of the speaker.
+- *rate* : The rate (speed) of the speaker, value between 0 and 1.
+- *vol* : The volume (loudness) of the speaker, value between 0 and 1.
+- *gender* : The gender of the speaker. E.g. `ResponsiveVoice.FEMALE`
 
+```python
+say(self, text, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None, play_cmd="mpg123 -q %1")
+```
+- *text* : The text you want to speak.
+- *mp3_file* : The name of the output file. If `None`, a temporary file will be created.
+- *lang* : The language of the speaker. E.g. `ResponsiveVoice.ENGLISH_US`
+- *pitch* : The pitch of the speaker.
+- *rate* : The rate (speed) of the speaker, value between 0 and 1.
+- *vol* : The volume (loudness) of the speaker, value between 0 and 1.
+- *gender* : The gender of the speaker. E.g. `ResponsiveVoice.FEMALE`
+- *play_cmd* : The command used to play the file.
 
+```python
+play_mp3(self, mp3_file, play_cmd="mpg123 -q %1")
+```
+- *mp3_file* : The name of the mp3 file you want to play.
+- *play_cmd* : The command used to play the file.
 
-
-## Credits
+# Credits
 
 JarbasAI
