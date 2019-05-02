@@ -22,9 +22,14 @@ class ResponsiveVoice(object):
         return subprocess.Popen(play_mp3_cmd)
 
     def get_mp3(self, sentence, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None):
-        mp3_file = mp3_file or sentence.replace(" ", "_")
-        if ".mp3" not in mp3_file:
+        if mp3_file is None:
+            mp3_file = sentence.replace(" ", "_").replace("\n", "")
+            if len(mp3_file) > 20:
+                mp3_file = mp3_file[:20]
+
+        if not mp3_file.endswith(".mp3"):
             mp3_file += ".mp3"
+
         params = {
             "t": sentence,
             "tl": lang or self.lang,
@@ -34,6 +39,7 @@ class ResponsiveVoice(object):
             "sv": "g1" if gender is not None and "f" not in gender else "",
             "vn": "rjs" if gender is not None and "f" not in gender else ""
         }
+
         base_url = "http://responsivevoice.org/responsivevoice/getvoice.php"
         r = requests.get(base_url, params)
         with open(mp3_file, "w") as f:
@@ -42,5 +48,3 @@ class ResponsiveVoice(object):
 
     def say(self, sentence, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=None, play_cmd="mpg123 -q %1"):
         self.play_mp3(self.get_mp3(sentence, mp3_file, lang=lang, pitch=pitch, rate=rate, vol=vol, gender=gender), play_cmd)
-
-
