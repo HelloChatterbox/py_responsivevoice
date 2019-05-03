@@ -13,7 +13,7 @@ def required(requirements_file):
 
 setup(
     name='ResponsiveVoice',
-    version='0.2.2',
+    version='0.3',
     packages=['responsive_voice'],
     url='https://github.com/JarbasAl/py_responsivevoice',
     install_requires=required('requirements.txt'),
