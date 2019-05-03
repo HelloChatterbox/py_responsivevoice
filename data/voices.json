@@ -1,0 +1,922 @@
+[
+  {
+    "lang": "he-IL",
+    "name": "he-IL",
+    "voiceURI": "he-IL"
+  },
+  {
+    "lang": "th-TH",
+    "name": "th-TH",
+    "voiceURI": "th-TH"
+  },
+  {
+    "lang": "pt-BR",
+    "name": "pt-BR",
+    "voiceURI": "pt-BR"
+  },
+  {
+    "lang": "sk-SK",
+    "name": "sk-SK",
+    "voiceURI": "sk-SK"
+  },
+  {
+    "lang": "fr-CA",
+    "name": "fr-CA",
+    "voiceURI": "fr-CA"
+  },
+  {
+    "lang": "ro-RO",
+    "name": "ro-RO",
+    "voiceURI": "ro-RO"
+  },
+  {
+    "lang": "no-NO",
+    "name": "no-NO",
+    "voiceURI": "no-NO"
+  },
+  {
+    "lang": "fi-FI",
+    "name": "fi-FI",
+    "voiceURI": "fi-FI"
+  },
+  {
+    "lang": "pl-PL",
+    "name": "pl-PL",
+    "voiceURI": "pl-PL"
+  },
+  {
+    "lang": "de-DE",
+    "name": "de-DE",
+    "voiceURI": "de-DE"
+  },
+  {
+    "lang": "nl-NL",
+    "name": "nl-NL",
+    "voiceURI": "nl-NL"
+  },
+  {
+    "lang": "id-ID",
+    "name": "id-ID",
+    "voiceURI": "id-ID"
+  },
+  {
+    "lang": "tr-TR",
+    "name": "tr-TR",
+    "voiceURI": "tr-TR"
+  },
+  {
+    "lang": "it-IT",
+    "name": "it-IT",
+    "voiceURI": "it-IT"
+  },
+  {
+    "lang": "pt-PT",
+    "name": "pt-PT",
+    "voiceURI": "pt-PT"
+  },
+  {
+    "lang": "fr-FR",
+    "name": "fr-FR",
+    "voiceURI": "fr-FR"
+  },
+  {
+    "lang": "ru-RU",
+    "name": "ru-RU",
+    "voiceURI": "ru-RU"
+  },
+  {
+    "lang": "es-MX",
+    "name": "es-MX",
+    "voiceURI": "es-MX"
+  },
+  {
+    "lang": "zh-HK",
+    "name": "zh-HK",
+    "voiceURI": "zh-HK"
+  },
+  {
+    "lang": "service-SE",
+    "name": "service-SE",
+    "voiceURI": "service-SE"
+  },
+  {
+    "lang": "hu-HU",
+    "name": "hu-HU",
+    "voiceURI": "hu-HU"
+  },
+  {
+    "lang": "zh-TW",
+    "name": "zh-TW",
+    "voiceURI": "zh-TW"
+  },
+  {
+    "lang": "es-ES",
+    "name": "es-ES",
+    "voiceURI": "es-ES"
+  },
+  {
+    "lang": "zh-CN",
+    "name": "zh-CN",
+    "voiceURI": "zh-CN"
+  },
+  {
+    "lang": "nl-BE",
+    "name": "nl-BE",
+    "voiceURI": "nl-BE"
+  },
+  {
+    "lang": "en-GB",
+    "name": "en-GB",
+    "voiceURI": "en-GB"
+  },
+  {
+    "lang": "ar-SA",
+    "name": "ar-SA",
+    "voiceURI": "ar-SA"
+  },
+  {
+    "lang": "ko-KR",
+    "name": "ko-KR",
+    "voiceURI": "ko-KR"
+  },
+  {
+    "lang": "cs-CZ",
+    "name": "cs-CZ",
+    "voiceURI": "cs-CZ"
+  },
+  {
+    "lang": "en-ZA",
+    "name": "en-ZA",
+    "voiceURI": "en-ZA"
+  },
+  {
+    "lang": "en-AU",
+    "name": "en-AU",
+    "voiceURI": "en-AU"
+  },
+  {
+    "lang": "da-DK",
+    "name": "da-DK",
+    "voiceURI": "da-DK"
+  },
+  {
+    "lang": "en-US",
+    "name": "en-US",
+    "voiceURI": "en-US"
+  },
+  {
+    "lang": "en-IE",
+    "name": "en-IE",
+    "voiceURI": "en-IE"
+  },
+  {
+    "lang": "hi-IN",
+    "name": "hi-IN",
+    "voiceURI": "hi-IN"
+  },
+  {
+    "lang": "el-GR",
+    "name": "el-GR",
+    "voiceURI": "el-GR"
+  },
+  {
+    "lang": "ja-JP",
+    "name": "ja-JP",
+    "voiceURI": "ja-JP"
+  },
+  {
+    "lang": "ar-SA",
+    "name": "Maged",
+    "voiceURI": "com.apple.ttsbundle.Maged-compact"
+  },
+  {
+    "lang": "cs-CZ",
+    "name": "Zuzana",
+    "voiceURI": "com.apple.ttsbundle.Zuzana-compact"
+  },
+  {
+    "lang": "da-DK",
+    "name": "Sara",
+    "voiceURI": "com.apple.ttsbundle.Sara-compact"
+  },
+  {
+    "lang": "de-DE",
+    "name": "Anna",
+    "voiceURI": "com.apple.ttsbundle.Anna-compact"
+  },
+  {
+    "lang": "el-GR",
+    "name": "Melina",
+    "voiceURI": "com.apple.ttsbundle.Melina-compact"
+  },
+  {
+    "lang": "en-AU",
+    "name": "Karen",
+    "voiceURI": "com.apple.ttsbundle.Karen-compact"
+  },
+  {
+    "lang": "en-GB",
+    "name": "Daniel",
+    "voiceURI": "com.apple.ttsbundle.Daniel-compact"
+  },
+  {
+    "lang": "en-IE",
+    "name": "Moira",
+    "voiceURI": "com.apple.ttsbundle.Moira-compact"
+  },
+  {
+    "lang": "en-US",
+    "name": "Samantha (Enhanced)",
+    "voiceURI": "com.apple.ttsbundle.Samantha-premium"
+  },
+  {
+    "lang": "en-US",
+    "name": "Samantha",
+    "voiceURI": "com.apple.ttsbundle.Samantha-compact"
+  },
+  {
+    "lang": "en-ZA",
+    "name": "Tessa",
+    "voiceURI": "com.apple.ttsbundle.Tessa-compact"
+  },
+  {
+    "lang": "es-ES",
+    "name": "Monica",
+    "voiceURI": "com.apple.ttsbundle.Monica-compact"
+  },
+  {
+    "lang": "es-MX",
+    "name": "Paulina",
+    "voiceURI": "com.apple.ttsbundle.Paulina-compact"
+  },
+  {
+    "lang": "fi-FI",
+    "name": "Satu",
+    "voiceURI": "com.apple.ttsbundle.Satu-compact"
+  },
+  {
+    "lang": "fr-CA",
+    "name": "Amelie",
+    "voiceURI": "com.apple.ttsbundle.Amelie-compact"
+  },
+  {
+    "lang": "fr-FR",
+    "name": "Thomas",
+    "voiceURI": "com.apple.ttsbundle.Thomas-compact"
+  },
+  {
+    "lang": "he-IL",
+    "name": "Carmit",
+    "voiceURI": "com.apple.ttsbundle.Carmit-compact"
+  },
+  {
+    "lang": "hi-IN",
+    "name": "Lekha",
+    "voiceURI": "com.apple.ttsbundle.Lekha-compact"
+  },
+  {
+    "lang": "hu-HU",
+    "name": "Mariska",
+    "voiceURI": "com.apple.ttsbundle.Mariska-compact"
+  },
+  {
+    "lang": "id-ID",
+    "name": "Damayanti",
+    "voiceURI": "com.apple.ttsbundle.Damayanti-compact"
+  },
+  {
+    "lang": "it-IT",
+    "name": "Alice",
+    "voiceURI": "com.apple.ttsbundle.Alice-compact"
+  },
+  {
+    "lang": "ja-JP",
+    "name": "Kyoko",
+    "voiceURI": "com.apple.ttsbundle.Kyoko-compact"
+  },
+  {
+    "lang": "ko-KR",
+    "name": "Yuna",
+    "voiceURI": "com.apple.ttsbundle.Yuna-compact"
+  },
+  {
+    "lang": "nl-BE",
+    "name": "Ellen",
+    "voiceURI": "com.apple.ttsbundle.Ellen-compact"
+  },
+  {
+    "lang": "nl-NL",
+    "name": "Xander",
+    "voiceURI": "com.apple.ttsbundle.Xander-compact"
+  },
+  {
+    "lang": "no-NO",
+    "name": "Nora",
+    "voiceURI": "com.apple.ttsbundle.Nora-compact"
+  },
+  {
+    "lang": "pl-PL",
+    "name": "Zosia",
+    "voiceURI": "com.apple.ttsbundle.Zosia-compact"
+  },
+  {
+    "lang": "pt-BR",
+    "name": "Luciana",
+    "voiceURI": "com.apple.ttsbundle.Luciana-compact"
+  },
+  {
+    "lang": "pt-PT",
+    "name": "Joana",
+    "voiceURI": "com.apple.ttsbundle.Joana-compact"
+  },
+  {
+    "lang": "ro-RO",
+    "name": "Ioana",
+    "voiceURI": "com.apple.ttsbundle.Ioana-compact"
+  },
+  {
+    "lang": "ru-RU",
+    "name": "Milena",
+    "voiceURI": "com.apple.ttsbundle.Milena-compact"
+  },
+  {
+    "lang": "sk-SK",
+    "name": "Laura",
+    "voiceURI": "com.apple.ttsbundle.Laura-compact"
+  },
+  {
+    "lang": "service-SE",
+    "name": "Alva",
+    "voiceURI": "com.apple.ttsbundle.Alva-compact"
+  },
+  {
+    "lang": "th-TH",
+    "name": "Kanya",
+    "voiceURI": "com.apple.ttsbundle.Kanya-compact"
+  },
+  {
+    "lang": "tr-TR",
+    "name": "Yelda",
+    "voiceURI": "com.apple.ttsbundle.Yelda-compact"
+  },
+  {
+    "lang": "zh-CN",
+    "name": "Ting-Ting",
+    "voiceURI": "com.apple.ttsbundle.Ting-Ting-compact"
+  },
+  {
+    "lang": "zh-HK",
+    "name": "Sin-Ji",
+    "voiceURI": "com.apple.ttsbundle.Sin-Ji-compact"
+  },
+  {
+    "lang": "zh-TW",
+    "name": "Mei-Jia",
+    "voiceURI": "com.apple.ttsbundle.Mei-Jia-compact"
+  },
+  {
+    "lang": "ar-SA",
+    "name": "Maged",
+    "voiceURI": "com.apple.ttsbundle.Maged-compact"
+  },
+  {
+    "lang": "cs-CZ",
+    "name": "Zuzana",
+    "voiceURI": "com.apple.ttsbundle.Zuzana-compact"
+  },
+  {
+    "lang": "da-DK",
+    "name": "Sara",
+    "voiceURI": "com.apple.ttsbundle.Sara-compact"
+  },
+  {
+    "lang": "de-DE",
+    "name": "Anna",
+    "voiceURI": "com.apple.ttsbundle.Anna-compact"
+  },
+  {
+    "lang": "de-DE",
+    "name": "Helena",
+    "voiceURI": "com.apple.ttsbundle.siri_female_de-DE_compact"
+  },
+  {
+    "lang": "de-DE",
+    "name": "Martin",
+    "voiceURI": "com.apple.ttsbundle.siri_male_de-DE_compact"
+  },
+  {
+    "lang": "el-GR",
+    "name": "Nikos (Enhanced)",
+    "voiceURI": "com.apple.ttsbundle.Nikos-premium"
+  },
+  {
+    "lang": "el-GR",
+    "name": "Melina",
+    "voiceURI": "com.apple.ttsbundle.Melina-compact"
+  },
+  {
+    "lang": "el-GR",
+    "name": "Nikos",
+    "voiceURI": "com.apple.ttsbundle.Nikos-compact"
+  },
+  {
+    "lang": "en-AU",
+    "name": "Catherine",
+    "voiceURI": "com.apple.ttsbundle.siri_female_en-AU_compact"
+  },
+  {
+    "lang": "en-AU",
+    "name": "Gordon",
+    "voiceURI": "com.apple.ttsbundle.siri_male_en-AU_compact"
+  },
+  {
+    "lang": "en-AU",
+    "name": "Karen",
+    "voiceURI": "com.apple.ttsbundle.Karen-compact"
+  },
+  {
+    "lang": "en-GB",
+    "name": "Daniel (Enhanced)",
+    "voiceURI": "com.apple.ttsbundle.Daniel-premium"
+  },
+  {
+    "lang": "en-GB",
+    "name": "Arthur",
+    "voiceURI": "com.apple.ttsbundle.siri_male_en-GB_compact"
+  },
+  {
+    "lang": "en-GB",
+    "name": "Daniel",
+    "voiceURI": "com.apple.ttsbundle.Daniel-compact"
+  },
+  {
+    "lang": "en-GB",
+    "name": "Martha",
+    "voiceURI": "com.apple.ttsbundle.siri_female_en-GB_compact"
+  },
+  {
+    "lang": "en-IE",
+    "name": "Moira",
+    "voiceURI": "com.apple.ttsbundle.Moira-compact"
+  },
+  {
+    "lang": "en-US",
+    "name": "Nicky (Enhanced)",
+    "voiceURI": "com.apple.ttsbundle.siri_female_en-US_premium"
+  },
+  {
+    "lang": "en-US",
+    "name": "Samantha (Enhanced)",
+    "voiceURI": "com.apple.ttsbundle.Samantha-premium"
+  },
+  {
+    "lang": "en-US",
+    "name": "Aaron",
+    "voiceURI": "com.apple.ttsbundle.siri_male_en-US_compact"
+  },
+  {
+    "lang": "en-US",
+    "name": "Fred",
+    "voiceURI": "com.apple.speech.synthesis.voice.Fred"
+  },
+  {
+    "lang": "en-US",
+    "name": "Nicky",
+    "voiceURI": "com.apple.ttsbundle.siri_female_en-US_compact"
+  },
+  {
+    "lang": "en-US",
+    "name": "Samantha",
+    "voiceURI": "com.apple.ttsbundle.Samantha-compact"
+  },
+  {
+    "lang": "en-ZA",
+    "name": "Tessa",
+    "voiceURI": "com.apple.ttsbundle.Tessa-compact"
+  },
+  {
+    "lang": "es-ES",
+    "name": "Monica",
+    "voiceURI": "com.apple.ttsbundle.Monica-compact"
+  },
+  {
+    "lang": "es-MX",
+    "name": "Paulina",
+    "voiceURI": "com.apple.ttsbundle.Paulina-compact"
+  },
+  {
+    "lang": "fi-FI",
+    "name": "Satu",
+    "voiceURI": "com.apple.ttsbundle.Satu-compact"
+  },
+  {
+    "lang": "fr-CA",
+    "name": "Amelie",
+    "voiceURI": "com.apple.ttsbundle.Amelie-compact"
+  },
+  {
+    "lang": "fr-FR",
+    "name": "Daniel",
+    "voiceURI": "com.apple.ttsbundle.siri_male_fr-FR_compact"
+  },
+  {
+    "lang": "fr-FR",
+    "name": "Marie",
+    "voiceURI": "com.apple.ttsbundle.siri_female_fr-FR_compact"
+  },
+  {
+    "lang": "fr-FR",
+    "name": "Thomas",
+    "voiceURI": "com.apple.ttsbundle.Thomas-compact"
+  },
+  {
+    "lang": "he-IL",
+    "name": "Carmit",
+    "voiceURI": "com.apple.ttsbundle.Carmit-compact"
+  },
+  {
+    "lang": "hi-IN",
+    "name": "Lekha",
+    "voiceURI": "com.apple.ttsbundle.Lekha-compact"
+  },
+  {
+    "lang": "hu-HU",
+    "name": "Mariska",
+    "voiceURI": "com.apple.ttsbundle.Mariska-compact"
+  },
+  {
+    "lang": "id-ID",
+    "name": "Damayanti",
+    "voiceURI": "com.apple.ttsbundle.Damayanti-compact"
+  },
+  {
+    "lang": "it-IT",
+    "name": "Alice",
+    "voiceURI": "com.apple.ttsbundle.Alice-compact"
+  },
+  {
+    "lang": "ja-JP",
+    "name": "Hattori",
+    "voiceURI": "com.apple.ttsbundle.siri_male_ja-JP_compact"
+  },
+  {
+    "lang": "ja-JP",
+    "name": "Kyoko",
+    "voiceURI": "com.apple.ttsbundle.Kyoko-compact"
+  },
+  {
+    "lang": "ja-JP",
+    "name": "O-ren",
+    "voiceURI": "com.apple.ttsbundle.siri_female_ja-JP_compact"
+  },
+  {
+    "lang": "ko-KR",
+    "name": "Yuna",
+    "voiceURI": "com.apple.ttsbundle.Yuna-compact"
+  },
+  {
+    "lang": "nl-BE",
+    "name": "Ellen",
+    "voiceURI": "com.apple.ttsbundle.Ellen-compact"
+  },
+  {
+    "lang": "nl-NL",
+    "name": "Xander",
+    "voiceURI": "com.apple.ttsbundle.Xander-compact"
+  },
+  {
+    "lang": "no-NO",
+    "name": "Nora",
+    "voiceURI": "com.apple.ttsbundle.Nora-compact"
+  },
+  {
+    "lang": "pl-PL",
+    "name": "Zosia",
+    "voiceURI": "com.apple.ttsbundle.Zosia-compact"
+  },
+  {
+    "lang": "pt-BR",
+    "name": "Luciana",
+    "voiceURI": "com.apple.ttsbundle.Luciana-compact"
+  },
+  {
+    "lang": "pt-PT",
+    "name": "Joana",
+    "voiceURI": "com.apple.ttsbundle.Joana-compact"
+  },
+  {
+    "lang": "ro-RO",
+    "name": "Ioana",
+    "voiceURI": "com.apple.ttsbundle.Ioana-compact"
+  },
+  {
+    "lang": "ru-RU",
+    "name": "Milena",
+    "voiceURI": "com.apple.ttsbundle.Milena-compact"
+  },
+  {
+    "lang": "sk-SK",
+    "name": "Laura",
+    "voiceURI": "com.apple.ttsbundle.Laura-compact"
+  },
+  {
+    "lang": "service-SE",
+    "name": "Alva",
+    "voiceURI": "com.apple.ttsbundle.Alva-compact"
+  },
+  {
+    "lang": "th-TH",
+    "name": "Kanya",
+    "voiceURI": "com.apple.ttsbundle.Kanya-compact"
+  },
+  {
+    "lang": "tr-TR",
+    "name": "Yelda",
+    "voiceURI": "com.apple.ttsbundle.Yelda-compact"
+  },
+  {
+    "lang": "zh-CN",
+    "name": "Li-mu",
+    "voiceURI": "com.apple.ttsbundle.siri_male_zh-CN_compact"
+  },
+  {
+    "lang": "zh-CN",
+    "name": "Ting-Ting",
+    "voiceURI": "com.apple.ttsbundle.Ting-Ting-compact"
+  },
+  {
+    "lang": "zh-CN",
+    "name": "Yu-shu",
+    "voiceURI": "com.apple.ttsbundle.siri_female_zh-CN_compact"
+  },
+  {
+    "lang": "zh-HK",
+    "name": "Sin-Ji",
+    "voiceURI": "com.apple.ttsbundle.Sin-Ji-compact"
+  },
+  {
+    "lang": "zh-TW",
+    "name": "Mei-Jia",
+    "voiceURI": "com.apple.ttsbundle.Mei-Jia-compact"
+  },
+  {
+    "lang": "ar-SA",
+    "name": "Maged",
+    "voiceURI": "com.apple.ttsbundle.Maged-compact"
+  },
+  {
+    "lang": "cs-CZ",
+    "name": "Zuzana",
+    "voiceURI": "com.apple.ttsbundle.Zuzana-compact"
+  },
+  {
+    "lang": "da-DK",
+    "name": "Sara",
+    "voiceURI": "com.apple.ttsbundle.Sara-compact"
+  },
+  {
+    "lang": "de-DE",
+    "name": "Anna",
+    "voiceURI": "com.apple.ttsbundle.Anna-compact"
+  },
+  {
+    "lang": "de-DE",
+    "name": "Helena",
+    "voiceURI": "com.apple.ttsbundle.siri_female_de-DE_compact"
+  },
+  {
+    "lang": "de-DE",
+    "name": "Martin",
+    "voiceURI": "com.apple.ttsbundle.siri_male_de-DE_compact"
+  },
+  {
+    "lang": "el-GR",
+    "name": "Melina",
+    "voiceURI": "com.apple.ttsbundle.Melina-compact"
+  },
+  {
+    "lang": "en-AU",
+    "name": "Catherine",
+    "voiceURI": "com.apple.ttsbundle.siri_female_en-AU_compact"
+  },
+  {
+    "lang": "en-AU",
+    "name": "Gordon",
+    "voiceURI": "com.apple.ttsbundle.siri_male_en-AU_compact"
+  },
+  {
+    "lang": "en-AU",
+    "name": "Karen",
+    "voiceURI": "com.apple.ttsbundle.Karen-compact"
+  },
+  {
+    "lang": "en-GB",
+    "name": "Arthur",
+    "voiceURI": "com.apple.ttsbundle.siri_male_en-GB_compact"
+  },
+  {
+    "lang": "en-GB",
+    "name": "Daniel",
+    "voiceURI": "com.apple.ttsbundle.Daniel-compact"
+  },
+  {
+    "lang": "en-GB",
+    "name": "Martha",
+    "voiceURI": "com.apple.ttsbundle.siri_female_en-GB_compact"
+  },
+  {
+    "lang": "en-IE",
+    "name": "Moira",
+    "voiceURI": "com.apple.ttsbundle.Moira-compact"
+  },
+  {
+    "lang": "en-US",
+    "name": "Aaron",
+    "voiceURI": "com.apple.ttsbundle.siri_male_en-US_compact"
+  },
+  {
+    "lang": "en-US",
+    "name": "Fred",
+    "voiceURI": "com.apple.speech.synthesis.voice.Fred"
+  },
+  {
+    "lang": "en-US",
+    "name": "Nicky",
+    "voiceURI": "com.apple.ttsbundle.siri_female_en-US_compact"
+  },
+  {
+    "lang": "en-US",
+    "name": "Samantha",
+    "voiceURI": "com.apple.ttsbundle.Samantha-compact"
+  },
+  {
+    "lang": "en-ZA",
+    "name": "Tessa",
+    "voiceURI": "com.apple.ttsbundle.Tessa-compact"
+  },
+  {
+    "lang": "es-ES",
+    "name": "Monica",
+    "voiceURI": "com.apple.ttsbundle.Monica-compact"
+  },
+  {
+    "lang": "es-MX",
+    "name": "Paulina",
+    "voiceURI": "com.apple.ttsbundle.Paulina-compact"
+  },
+  {
+    "lang": "fi-FI",
+    "name": "Satu",
+    "voiceURI": "com.apple.ttsbundle.Satu-compact"
+  },
+  {
+    "lang": "fr-CA",
+    "name": "Amelie",
+    "voiceURI": "com.apple.ttsbundle.Amelie-compact"
+  },
+  {
+    "lang": "fr-FR",
+    "name": "Daniel",
+    "voiceURI": "com.apple.ttsbundle.siri_male_fr-FR_compact"
+  },
+  {
+    "lang": "fr-FR",
+    "name": "Marie",
+    "voiceURI": "com.apple.ttsbundle.siri_female_fr-FR_compact"
+  },
+  {
+    "lang": "fr-FR",
+    "name": "Thomas",
+    "voiceURI": "com.apple.ttsbundle.Thomas-compact"
+  },
+  {
+    "lang": "he-IL",
+    "name": "Carmit",
+    "voiceURI": "com.apple.ttsbundle.Carmit-compact"
+  },
+  {
+    "lang": "hi-IN",
+    "name": "Lekha",
+    "voiceURI": "com.apple.ttsbundle.Lekha-compact"
+  },
+  {
+    "lang": "hu-HU",
+    "name": "Mariska",
+    "voiceURI": "com.apple.ttsbundle.Mariska-compact"
+  },
+  {
+    "lang": "id-ID",
+    "name": "Damayanti",
+    "voiceURI": "com.apple.ttsbundle.Damayanti-compact"
+  },
+  {
+    "lang": "it-IT",
+    "name": "Alice",
+    "voiceURI": "com.apple.ttsbundle.Alice-compact"
+  },
+  {
+    "lang": "ja-JP",
+    "name": "Hattori",
+    "voiceURI": "com.apple.ttsbundle.siri_male_ja-JP_compact"
+  },
+  {
+    "lang": "ja-JP",
+    "name": "Kyoko",
+    "voiceURI": "com.apple.ttsbundle.Kyoko-compact"
+  },
+  {
+    "lang": "ja-JP",
+    "name": "O-ren",
+    "voiceURI": "com.apple.ttsbundle.siri_female_ja-JP_compact"
+  },
+  {
+    "lang": "ko-KR",
+    "name": "Yuna",
+    "voiceURI": "com.apple.ttsbundle.Yuna-compact"
+  },
+  {
+    "lang": "nl-BE",
+    "name": "Ellen",
+    "voiceURI": "com.apple.ttsbundle.Ellen-compact"
+  },
+  {
+    "lang": "nl-NL",
+    "name": "Xander",
+    "voiceURI": "com.apple.ttsbundle.Xander-compact"
+  },
+  {
+    "lang": "no-NO",
+    "name": "Nora",
+    "voiceURI": "com.apple.ttsbundle.Nora-compact"
+  },
+  {
+    "lang": "pl-PL",
+    "name": "Zosia",
+    "voiceURI": "com.apple.ttsbundle.Zosia-compact"
+  },
+  {
+    "lang": "pt-BR",
+    "name": "Luciana",
+    "voiceURI": "com.apple.ttsbundle.Luciana-compact"
+  },
+  {
+    "lang": "pt-PT",
+    "name": "Joana",
+    "voiceURI": "com.apple.ttsbundle.Joana-compact"
+  },
+  {
+    "lang": "ro-RO",
+    "name": "Ioana",
+    "voiceURI": "com.apple.ttsbundle.Ioana-compact"
+  },
+  {
+    "lang": "ru-RU",
+    "name": "Milena",
+    "voiceURI": "com.apple.ttsbundle.Milena-compact"
+  },
+  {
+    "lang": "sk-SK",
+    "name": "Laura",
+    "voiceURI": "com.apple.ttsbundle.Laura-compact"
+  },
+  {
+    "lang": "service-SE",
+    "name": "Alva",
+    "voiceURI": "com.apple.ttsbundle.Alva-compact"
+  },
+  {
+    "lang": "th-TH",
+    "name": "Kanya",
+    "voiceURI": "com.apple.ttsbundle.Kanya-compact"
+  },
+  {
+    "lang": "tr-TR",
+    "name": "Yelda",
+    "voiceURI": "com.apple.ttsbundle.Yelda-compact"
+  },
+  {
+    "lang": "zh-CN",
+    "name": "Li-mu",
+    "voiceURI": "com.apple.ttsbundle.siri_male_zh-CN_compact"
+  },
+  {
+    "lang": "zh-CN",
+    "name": "Ting-Ting",
+    "voiceURI": "com.apple.ttsbundle.Ting-Ting-compact"
+  },
+  {
+    "lang": "zh-CN",
+    "name": "Yu-shu",
+    "voiceURI": "com.apple.ttsbundle.siri_female_zh-CN_compact"
+  },
+  {
+    "lang": "zh-HK",
+    "name": "Sin-Ji",
+    "voiceURI": "com.apple.ttsbundle.Sin-Ji-compact"
+  },
+  {
+    "lang": "zh-TW",
+    "name": "Mei-Jia",
+    "voiceURI": "com.apple.ttsbundle.Mei-Jia-compact"
+  }
+]
