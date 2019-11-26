@@ -32,15 +32,15 @@ engine.play_mp3(file_path)
 You can use pre defined configurations, aka, voices
 
 ```python
-from responsive_voice.voices import EnglishIndia, UKEnglishMale,\
-    FallbackUKEnglishMale
+from responsive_voice.voices import EnglishIndia, UKEnglishMale, \
+    PortuguesePortugal
 
 india = EnglishIndia()
 uk = UKEnglishMale()
-uk2 = FallbackUKEnglishMale()
+pt = PortuguesePortugal()
 india.say("hello world")
 uk.say("hello world")
-uk2.say("hello world")
+pt.say("olá mundo")
 
 ```
 ## Usage
@@ -79,9 +79,3 @@ get_mp3(sentence, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gen
 [ResponsiveVoice](https://responsivevoice.org/)
 
 [JarbasAI](https://jarbasal.github.io)
-
-[![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/1QJNhKM8tVv62XSUrST2vnaMXh5ADSyYP8)](https://en.cryptobadges.io/donate/1QJNhKM8tVv62XSUrST2vnaMXh5ADSyYP8)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/jarbasai)
-<span class="badge-patreon"><a href="https://www.patreon.com/jarbasAI" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/JarbasAl)
-
