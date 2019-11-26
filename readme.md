@@ -9,8 +9,8 @@ Unofficial python API for [Responsive Voice](https://responsivevoice.org)
   * [Credits](#credits)
   
 # Install
-```python
-pip install responsivevoice
+```bash
+pip install ResponsiveVoice
 ```
 # Example
 
