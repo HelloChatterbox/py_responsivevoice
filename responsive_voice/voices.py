@@ -913,7 +913,7 @@ class SerbianMale(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class Serbo_CroatianMale(ResponsiveVoice):
+class SerboCroatianMale(ResponsiveVoice):
     uri = "Serbo_CroatianMale_ResponsiveVoice"
     name = "Serbo-Croatian Male"
     voiceIDs = [131]
@@ -957,7 +957,7 @@ class FallbackUKFemale(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class Fallbacken_GBFemale(ResponsiveVoice):
+class FallbackenGBFemale(ResponsiveVoice):
     uri = "Fallbacken_GBFemale_ResponsiveVoice"
     name = "Fallback en-GB Female"
 
@@ -1377,7 +1377,7 @@ class FallbackPortuguese(ResponsiveVoice):
                          voice_name="", service="g1")
 
 
-class FallbackSerbo_Croation(ResponsiveVoice):
+class FallbackSerboCroation(ResponsiveVoice):
     uri = "FallbackSerbo_Croation_ResponsiveVoice"
     name = "Fallback Serbo-Croation"
 
@@ -1467,7 +1467,7 @@ class FallbackUKEnglishMale(ResponsiveVoice):
                          voice_name="rjs", service="g1")
 
 
-class FinnishMale(ResponsiveVoice):
+class FinnishMale2(ResponsiveVoice):
     uri = "FinnishMale_ResponsiveVoice"
     name = "Finnish Male"
 
@@ -1477,7 +1477,7 @@ class FinnishMale(ResponsiveVoice):
                          voice_name="", service="g3")
 
 
-class CzechMale(ResponsiveVoice):
+class CzechMale2(ResponsiveVoice):
     uri = "CzechMale_ResponsiveVoice"
     name = "Czech Male"
 
@@ -1487,7 +1487,7 @@ class CzechMale(ResponsiveVoice):
                          voice_name="", service="g3")
 
 
-class DanishMale(ResponsiveVoice):
+class DanishMale2(ResponsiveVoice):
     uri = "DanishMale_ResponsiveVoice"
     name = "Danish Male"
 
@@ -1497,7 +1497,7 @@ class DanishMale(ResponsiveVoice):
                          voice_name="", service="g3")
 
 
-class GreekMale(ResponsiveVoice):
+class GreekMale2(ResponsiveVoice):
     uri = "GreekMale_ResponsiveVoice"
     name = "Greek Male"
 
@@ -1507,7 +1507,7 @@ class GreekMale(ResponsiveVoice):
                          voice_name="", service="g3")
 
 
-class HungarianMale(ResponsiveVoice):
+class HungarianMale2(ResponsiveVoice):
     uri = "HungarianMale_ResponsiveVoice"
     name = "Hungarian Male"
 
@@ -1517,7 +1517,7 @@ class HungarianMale(ResponsiveVoice):
                          voice_name="", service="g3")
 
 
-class LatinMale(ResponsiveVoice):
+class LatinMale2(ResponsiveVoice):
     uri = "LatinMale_ResponsiveVoice"
     name = "Latin Male"
 
@@ -1527,7 +1527,7 @@ class LatinMale(ResponsiveVoice):
                          voice_name="", service="g1")
 
 
-class NorwegianMale(ResponsiveVoice):
+class NorwegianMale2(ResponsiveVoice):
     uri = "NorwegianMale_ResponsiveVoice"
     name = "Norwegian Male"
 
@@ -1537,7 +1537,7 @@ class NorwegianMale(ResponsiveVoice):
                          voice_name="", service="g3")
 
 
-class SlovakMale(ResponsiveVoice):
+class SlovakMale2(ResponsiveVoice):
     uri = "SlovakMale_ResponsiveVoice"
     name = "Slovak Male"
 
@@ -1547,7 +1547,7 @@ class SlovakMale(ResponsiveVoice):
                          voice_name="", service="g3")
 
 
-class SwedishMale(ResponsiveVoice):
+class SwedishMale2(ResponsiveVoice):
     uri = "SwedishMale_ResponsiveVoice"
     name = "Swedish Male"
 
@@ -1799,7 +1799,7 @@ class ChineseHongKong(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class ChineseHongKong(ResponsiveVoice):
+class ChineseHongKong2(ResponsiveVoice):
     uri = "ChineseHongKong_ResponsiveVoice"
     name = "Chinese Hong Kong"
 
@@ -2172,7 +2172,7 @@ class Yelda(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class Ting_Ting(ResponsiveVoice):
+class TingTing(ResponsiveVoice):
     uri = "Ting_Ting_ResponsiveVoice"
     name = "Ting-Ting"
 
@@ -2182,7 +2182,7 @@ class Ting_Ting(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class Sin_Ji(ResponsiveVoice):
+class SinJi(ResponsiveVoice):
     uri = "Sin_Ji_ResponsiveVoice"
     name = "Sin-Ji"
 
@@ -2192,7 +2192,7 @@ class Sin_Ji(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class Mei_Jia(ResponsiveVoice):
+class MeiJia(ResponsiveVoice):
     uri = "Mei_Jia_ResponsiveVoice"
     name = "Mei-Jia"
 
@@ -2202,7 +2202,7 @@ class Mei_Jia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftDavidMobile_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftDavidMobileEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftDavidMobile_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft David Mobile - English (United States)"
 
@@ -2212,7 +2212,7 @@ class MicrosoftDavidMobile_EnglishUnitedStates(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftZiraMobile_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftZiraMobileEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftZiraMobile_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft Zira Mobile - English (United States)"
 
@@ -2222,7 +2222,7 @@ class MicrosoftZiraMobile_EnglishUnitedStates(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftMarkMobile_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftMarkMobileEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftMarkMobile_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft Mark Mobile - English (United States)"
 
@@ -2252,7 +2252,7 @@ class FallbackChineseTaiwanFemale(ResponsiveVoice):
                          voice_name="", service="g1")
 
 
-class MicrosoftGeorgeMobile_EnglishUnitedKingdom(ResponsiveVoice):
+class MicrosoftGeorgeMobileEnglishUnitedKingdom(ResponsiveVoice):
     uri = "MicrosoftGeorgeMobile_EnglishUnitedKingdom_ResponsiveVoice"
     name = "Microsoft George Mobile - English (United Kingdom)"
 
@@ -2262,7 +2262,7 @@ class MicrosoftGeorgeMobile_EnglishUnitedKingdom(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftSusanMobile_EnglishUnitedKingdom(ResponsiveVoice):
+class MicrosoftSusanMobileEnglishUnitedKingdom(ResponsiveVoice):
     uri = "MicrosoftSusanMobile_EnglishUnitedKingdom_ResponsiveVoice"
     name = "Microsoft Susan Mobile - English (United Kingdom)"
 
@@ -2272,7 +2272,7 @@ class MicrosoftSusanMobile_EnglishUnitedKingdom(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHazelMobile_EnglishUnitedKingdom(ResponsiveVoice):
+class MicrosoftHazelMobileEnglishUnitedKingdom(ResponsiveVoice):
     uri = "MicrosoftHazelMobile_EnglishUnitedKingdom_ResponsiveVoice"
     name = "Microsoft Hazel Mobile - English (United Kingdom)"
 
@@ -2282,7 +2282,7 @@ class MicrosoftHazelMobile_EnglishUnitedKingdom(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHeeraMobile_EnglishIndia(ResponsiveVoice):
+class MicrosoftHeeraMobileEnglishIndia(ResponsiveVoice):
     uri = "MicrosoftHeeraMobile_EnglishIndia_ResponsiveVoice"
     name = "Microsoft Heera Mobile - English (India)"
 
@@ -2292,7 +2292,7 @@ class MicrosoftHeeraMobile_EnglishIndia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftIrinaMobile_RussianRussia(ResponsiveVoice):
+class MicrosoftIrinaMobileRussianRussia(ResponsiveVoice):
     uri = "MicrosoftIrinaMobile_RussianRussia_ResponsiveVoice"
     name = "Microsoft Irina Mobile - Russian (Russia)"
 
@@ -2302,7 +2302,7 @@ class MicrosoftIrinaMobile_RussianRussia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHeddaMobile_GermanGermany(ResponsiveVoice):
+class MicrosoftHeddaMobileGermanGermany(ResponsiveVoice):
     uri = "MicrosoftHeddaMobile_GermanGermany_ResponsiveVoice"
     name = "Microsoft Hedda Mobile - German (Germany)"
 
@@ -2312,7 +2312,7 @@ class MicrosoftHeddaMobile_GermanGermany(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftKatjaMobile_GermanGermany(ResponsiveVoice):
+class MicrosoftKatjaMobileGermanGermany(ResponsiveVoice):
     uri = "MicrosoftKatjaMobile_GermanGermany_ResponsiveVoice"
     name = "Microsoft Katja Mobile - German (Germany)"
 
@@ -2322,7 +2322,7 @@ class MicrosoftKatjaMobile_GermanGermany(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHelenaMobile_SpanishSpain(ResponsiveVoice):
+class MicrosoftHelenaMobileSpanishSpain(ResponsiveVoice):
     uri = "MicrosoftHelenaMobile_SpanishSpain_ResponsiveVoice"
     name = "Microsoft Helena Mobile - Spanish (Spain)"
 
@@ -2332,7 +2332,7 @@ class MicrosoftHelenaMobile_SpanishSpain(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftLauraMobile_SpanishSpain(ResponsiveVoice):
+class MicrosoftLauraMobileSpanishSpain(ResponsiveVoice):
     uri = "MicrosoftLauraMobile_SpanishSpain_ResponsiveVoice"
     name = "Microsoft Laura Mobile - Spanish (Spain)"
 
@@ -2342,7 +2342,7 @@ class MicrosoftLauraMobile_SpanishSpain(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftSabinaMobile_SpanishMexico(ResponsiveVoice):
+class MicrosoftSabinaMobileSpanishMexico(ResponsiveVoice):
     uri = "MicrosoftSabinaMobile_SpanishMexico_ResponsiveVoice"
     name = "Microsoft Sabina Mobile - Spanish (Mexico)"
 
@@ -2352,7 +2352,7 @@ class MicrosoftSabinaMobile_SpanishMexico(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftJulieMobile_FrenchFrance(ResponsiveVoice):
+class MicrosoftJulieMobileFrenchFrance(ResponsiveVoice):
     uri = "MicrosoftJulieMobile_FrenchFrance_ResponsiveVoice"
     name = "Microsoft Julie Mobile - French (France)"
 
@@ -2362,7 +2362,7 @@ class MicrosoftJulieMobile_FrenchFrance(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPaulinaMobile_PolishPoland(ResponsiveVoice):
+class MicrosoftPaulinaMobilePolishPoland(ResponsiveVoice):
     uri = "MicrosoftPaulinaMobile_PolishPoland_ResponsiveVoice"
     name = "Microsoft Paulina Mobile - Polish (Poland)"
 
@@ -2372,7 +2372,7 @@ class MicrosoftPaulinaMobile_PolishPoland(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHuihuiMobile_ChineseSimplifiedPRC(ResponsiveVoice):
+class MicrosoftHuihuiMobileChineseSimplifiedPRC(ResponsiveVoice):
     uri = "MicrosoftHuihuiMobile_ChineseSimplifiedPRC_ResponsiveVoice"
     name = "Microsoft Huihui Mobile - Chinese (Simplified, PRC)"
 
@@ -2382,7 +2382,7 @@ class MicrosoftHuihuiMobile_ChineseSimplifiedPRC(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftYaoyaoMobile_ChineseSimplifiedPRC(ResponsiveVoice):
+class MicrosoftYaoyaoMobileChineseSimplifiedPRC(ResponsiveVoice):
     uri = "MicrosoftYaoyaoMobile_ChineseSimplifiedPRC_ResponsiveVoice"
     name = "Microsoft Yaoyao Mobile - Chinese (Simplified, PRC)"
 
@@ -2392,7 +2392,7 @@ class MicrosoftYaoyaoMobile_ChineseSimplifiedPRC(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftTracyMobile_ChineseTraditionalHongKongSAR(ResponsiveVoice):
+class MicrosoftTracyMobileChineseTraditionalHongKongSAR(ResponsiveVoice):
     uri = "MicrosoftTracyMobile_ChineseTraditionalHongKongSAR_ResponsiveVoice"
     name = "Microsoft Tracy Mobile - Chinese (Traditional, Hong Kong S.A.R.)"
 
@@ -2402,7 +2402,7 @@ class MicrosoftTracyMobile_ChineseTraditionalHongKongSAR(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftElsaMobile_ItalianItaly(ResponsiveVoice):
+class MicrosoftElsaMobileItalianItaly(ResponsiveVoice):
     uri = "MicrosoftElsaMobile_ItalianItaly_ResponsiveVoice"
     name = "Microsoft Elsa Mobile - Italian (Italy)"
 
@@ -2412,7 +2412,7 @@ class MicrosoftElsaMobile_ItalianItaly(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftMariaMobile_PortugueseBrazil(ResponsiveVoice):
+class MicrosoftMariaMobilePortugueseBrazil(ResponsiveVoice):
     uri = "MicrosoftMariaMobile_PortugueseBrazil_ResponsiveVoice"
     name = "Microsoft Maria Mobile - Portuguese (Brazil)"
 
@@ -2422,7 +2422,7 @@ class MicrosoftMariaMobile_PortugueseBrazil(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftAyumiMobile_JapaneseJapan(ResponsiveVoice):
+class MicrosoftAyumiMobileJapaneseJapan(ResponsiveVoice):
     uri = "MicrosoftAyumiMobile_JapaneseJapan_ResponsiveVoice"
     name = "Microsoft Ayumi Mobile - Japanese (Japan)"
 
@@ -2432,7 +2432,7 @@ class MicrosoftAyumiMobile_JapaneseJapan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHarukaMobile_JapaneseJapan(ResponsiveVoice):
+class MicrosoftHarukaMobileJapaneseJapan(ResponsiveVoice):
     uri = "MicrosoftHarukaMobile_JapaneseJapan_ResponsiveVoice"
     name = "Microsoft Haruka Mobile - Japanese (Japan)"
 
@@ -2492,7 +2492,7 @@ class Marie(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class O_ren(ResponsiveVoice):
+class Oren(ResponsiveVoice):
     uri = "O_ren_ResponsiveVoice"
     name = "O-ren"
 
@@ -2502,7 +2502,7 @@ class O_ren(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class Yu_shu(ResponsiveVoice):
+class Yushu(ResponsiveVoice):
     uri = "Yu_shu_ResponsiveVoice"
     name = "Yu-shu"
 
@@ -2512,7 +2512,7 @@ class Yu_shu(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftDavid_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftDavidEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftDavid_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft David - English (United States)"
 
@@ -2522,7 +2522,7 @@ class MicrosoftDavid_EnglishUnitedStates(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftZira_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftZiraEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftZira_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft Zira - English (United States)"
 
@@ -2532,7 +2532,7 @@ class MicrosoftZira_EnglishUnitedStates(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftMark_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftMarkEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftMark_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft Mark - English (United States)"
 
@@ -2542,7 +2542,7 @@ class MicrosoftMark_EnglishUnitedStates(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftGeorge_EnglishUnitedKingdom(ResponsiveVoice):
+class MicrosoftGeorgeEnglishUnitedKingdom(ResponsiveVoice):
     uri = "MicrosoftGeorge_EnglishUnitedKingdom_ResponsiveVoice"
     name = "Microsoft George - English (United Kingdom)"
 
@@ -2552,7 +2552,7 @@ class MicrosoftGeorge_EnglishUnitedKingdom(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftSusan_EnglishUnitedKingdom(ResponsiveVoice):
+class MicrosoftSusanEnglishUnitedKingdom(ResponsiveVoice):
     uri = "MicrosoftSusan_EnglishUnitedKingdom_ResponsiveVoice"
     name = "Microsoft Susan - English (United Kingdom)"
 
@@ -2562,7 +2562,7 @@ class MicrosoftSusan_EnglishUnitedKingdom(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHazel_EnglishUnitedKingdom(ResponsiveVoice):
+class MicrosoftHazelEnglishUnitedKingdom(ResponsiveVoice):
     uri = "MicrosoftHazel_EnglishUnitedKingdom_ResponsiveVoice"
     name = "Microsoft Hazel - English (United Kingdom)"
 
@@ -2572,7 +2572,7 @@ class MicrosoftHazel_EnglishUnitedKingdom(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHeera_EnglishIndia(ResponsiveVoice):
+class MicrosoftHeeraEnglishIndia(ResponsiveVoice):
     uri = "MicrosoftHeera_EnglishIndia_ResponsiveVoice"
     name = "Microsoft Heera - English (India)"
 
@@ -2582,7 +2582,7 @@ class MicrosoftHeera_EnglishIndia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftIrina_RussianRussia(ResponsiveVoice):
+class MicrosoftIrinaRussianRussia(ResponsiveVoice):
     uri = "MicrosoftIrina_RussianRussia_ResponsiveVoice"
     name = "Microsoft Irina - Russian (Russia)"
 
@@ -2592,7 +2592,7 @@ class MicrosoftIrina_RussianRussia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHedda_GermanGermany(ResponsiveVoice):
+class MicrosoftHeddaGermanGermany(ResponsiveVoice):
     uri = "MicrosoftHedda_GermanGermany_ResponsiveVoice"
     name = "Microsoft Hedda - German (Germany)"
 
@@ -2602,7 +2602,7 @@ class MicrosoftHedda_GermanGermany(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftKatja_GermanGermany(ResponsiveVoice):
+class MicrosoftKatjaGermanGermany(ResponsiveVoice):
     uri = "MicrosoftKatja_GermanGermany_ResponsiveVoice"
     name = "Microsoft Katja - German (Germany)"
 
@@ -2612,7 +2612,7 @@ class MicrosoftKatja_GermanGermany(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHelena_SpanishSpain(ResponsiveVoice):
+class MicrosoftHelenaSpanishSpain(ResponsiveVoice):
     uri = "MicrosoftHelena_SpanishSpain_ResponsiveVoice"
     name = "Microsoft Helena - Spanish (Spain)"
 
@@ -2622,7 +2622,7 @@ class MicrosoftHelena_SpanishSpain(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftLaura_SpanishSpain(ResponsiveVoice):
+class MicrosoftLauraSpanishSpain(ResponsiveVoice):
     uri = "MicrosoftLaura_SpanishSpain_ResponsiveVoice"
     name = "Microsoft Laura - Spanish (Spain)"
 
@@ -2632,7 +2632,7 @@ class MicrosoftLaura_SpanishSpain(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftSabina_SpanishMexico(ResponsiveVoice):
+class MicrosoftSabinaSpanishMexico(ResponsiveVoice):
     uri = "MicrosoftSabina_SpanishMexico_ResponsiveVoice"
     name = "Microsoft Sabina - Spanish (Mexico)"
 
@@ -2642,7 +2642,7 @@ class MicrosoftSabina_SpanishMexico(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftJulie_FrenchFrance(ResponsiveVoice):
+class MicrosoftJulieFrenchFrance(ResponsiveVoice):
     uri = "MicrosoftJulie_FrenchFrance_ResponsiveVoice"
     name = "Microsoft Julie - French (France)"
 
@@ -2652,7 +2652,7 @@ class MicrosoftJulie_FrenchFrance(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPaulina_PolishPoland(ResponsiveVoice):
+class MicrosoftPaulinaPolishPoland(ResponsiveVoice):
     uri = "MicrosoftPaulina_PolishPoland_ResponsiveVoice"
     name = "Microsoft Paulina - Polish (Poland)"
 
@@ -2662,7 +2662,7 @@ class MicrosoftPaulina_PolishPoland(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHuihui_ChineseSimplifiedPRC(ResponsiveVoice):
+class MicrosoftHuihuiChineseSimplifiedPRC(ResponsiveVoice):
     uri = "MicrosoftHuihui_ChineseSimplifiedPRC_ResponsiveVoice"
     name = "Microsoft Huihui - Chinese (Simplified, PRC)"
 
@@ -2672,7 +2672,7 @@ class MicrosoftHuihui_ChineseSimplifiedPRC(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftYaoyao_ChineseSimplifiedPRC(ResponsiveVoice):
+class MicrosoftYaoyaoChineseSimplifiedPRC(ResponsiveVoice):
     uri = "MicrosoftYaoyao_ChineseSimplifiedPRC_ResponsiveVoice"
     name = "Microsoft Yaoyao - Chinese (Simplified, PRC)"
 
@@ -2682,7 +2682,7 @@ class MicrosoftYaoyao_ChineseSimplifiedPRC(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftTracy_ChineseTraditionalHongKongSAR(ResponsiveVoice):
+class MicrosoftTracyChineseTraditionalHongKongSAR(ResponsiveVoice):
     uri = "MicrosoftTracy_ChineseTraditionalHongKongSAR_ResponsiveVoice"
     name = "Microsoft Tracy - Chinese (Traditional, Hong Kong S.A.R.)"
 
@@ -2692,7 +2692,7 @@ class MicrosoftTracy_ChineseTraditionalHongKongSAR(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftElsa_ItalianItaly(ResponsiveVoice):
+class MicrosoftElsaItalianItaly(ResponsiveVoice):
     uri = "MicrosoftElsa_ItalianItaly_ResponsiveVoice"
     name = "Microsoft Elsa - Italian (Italy)"
 
@@ -2702,7 +2702,7 @@ class MicrosoftElsa_ItalianItaly(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftMaria_PortugueseBrazil(ResponsiveVoice):
+class MicrosoftMariaPortugueseBrazil(ResponsiveVoice):
     uri = "MicrosoftMaria_PortugueseBrazil_ResponsiveVoice"
     name = "Microsoft Maria - Portuguese (Brazil)"
 
@@ -2712,7 +2712,7 @@ class MicrosoftMaria_PortugueseBrazil(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftAyumi_JapaneseJapan(ResponsiveVoice):
+class MicrosoftAyumiJapaneseJapan(ResponsiveVoice):
     uri = "MicrosoftAyumi_JapaneseJapan_ResponsiveVoice"
     name = "Microsoft Ayumi - Japanese (Japan)"
 
@@ -2722,7 +2722,7 @@ class MicrosoftAyumi_JapaneseJapan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHaruka_JapaneseJapan(ResponsiveVoice):
+class MicrosoftHarukaJapaneseJapan(ResponsiveVoice):
     uri = "MicrosoftHaruka_JapaneseJapan_ResponsiveVoice"
     name = "Microsoft Haruka - Japanese (Japan)"
 
@@ -2732,7 +2732,7 @@ class MicrosoftHaruka_JapaneseJapan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHortense_FrenchFrance(ResponsiveVoice):
+class MicrosoftHortenseFrenchFrance(ResponsiveVoice):
     uri = "MicrosoftHortense_FrenchFrance_ResponsiveVoice"
     name = "Microsoft Hortense - French (France)"
 
@@ -2742,7 +2742,7 @@ class MicrosoftHortense_FrenchFrance(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHanhan_ChineseTraditionalTaiwan(ResponsiveVoice):
+class MicrosoftHanhanChineseTraditionalTaiwan(ResponsiveVoice):
     uri = "MicrosoftHanhan_ChineseTraditionalTaiwan_ResponsiveVoice"
     name = "Microsoft Hanhan - Chinese (Traditional, Taiwan)"
 
@@ -2752,7 +2752,7 @@ class MicrosoftHanhan_ChineseTraditionalTaiwan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHeami_KoreanKorean(ResponsiveVoice):
+class MicrosoftHeamiKoreanKorean(ResponsiveVoice):
     uri = "MicrosoftHeami_KoreanKorean_ResponsiveVoice"
     name = "Microsoft Heami - Korean (Korean)"
 
@@ -2762,7 +2762,7 @@ class MicrosoftHeami_KoreanKorean(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftStefan_GermanGermany(ResponsiveVoice):
+class MicrosoftStefanGermanGermany(ResponsiveVoice):
     uri = "MicrosoftStefan_GermanGermany_ResponsiveVoice"
     name = "Microsoft Stefan - German (Germany)"
 
@@ -2772,7 +2772,7 @@ class MicrosoftStefan_GermanGermany(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftRavi_EnglishIndia(ResponsiveVoice):
+class MicrosoftRaviEnglishIndia(ResponsiveVoice):
     uri = "MicrosoftRavi_EnglishIndia_ResponsiveVoice"
     name = "Microsoft Ravi - English (India)"
 
@@ -2782,7 +2782,7 @@ class MicrosoftRavi_EnglishIndia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPablo_SpanishSpain(ResponsiveVoice):
+class MicrosoftPabloSpanishSpain(ResponsiveVoice):
     uri = "MicrosoftPablo_SpanishSpain_ResponsiveVoice"
     name = "Microsoft Pablo - Spanish (Spain)"
 
@@ -2792,7 +2792,7 @@ class MicrosoftPablo_SpanishSpain(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftRaul_SpanishMexico(ResponsiveVoice):
+class MicrosoftRaulSpanishMexico(ResponsiveVoice):
     uri = "MicrosoftRaul_SpanishMexico_ResponsiveVoice"
     name = "Microsoft Raul - Spanish (Mexico)"
 
@@ -2802,7 +2802,7 @@ class MicrosoftRaul_SpanishMexico(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPaul_FrenchFrance(ResponsiveVoice):
+class MicrosoftPaulFrenchFrance(ResponsiveVoice):
     uri = "MicrosoftPaul_FrenchFrance_ResponsiveVoice"
     name = "Microsoft Paul - French (France)"
 
@@ -2812,7 +2812,7 @@ class MicrosoftPaul_FrenchFrance(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftCosimo_ItalianItaly(ResponsiveVoice):
+class MicrosoftCosimoItalianItaly(ResponsiveVoice):
     uri = "MicrosoftCosimo_ItalianItaly_ResponsiveVoice"
     name = "Microsoft Cosimo - Italian (Italy)"
 
@@ -2822,7 +2822,7 @@ class MicrosoftCosimo_ItalianItaly(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftIchiro_JapaneseJapan(ResponsiveVoice):
+class MicrosoftIchiroJapaneseJapan(ResponsiveVoice):
     uri = "MicrosoftIchiro_JapaneseJapan_ResponsiveVoice"
     name = "Microsoft Ichiro - Japanese (Japan)"
 
@@ -2832,7 +2832,7 @@ class MicrosoftIchiro_JapaneseJapan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftAdam_PolishPoland(ResponsiveVoice):
+class MicrosoftAdamPolishPoland(ResponsiveVoice):
     uri = "MicrosoftAdam_PolishPoland_ResponsiveVoice"
     name = "Microsoft Adam - Polish (Poland)"
 
@@ -2842,7 +2842,7 @@ class MicrosoftAdam_PolishPoland(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftDaniel_PortugueseBrazil(ResponsiveVoice):
+class MicrosoftDanielPortugueseBrazil(ResponsiveVoice):
     uri = "MicrosoftDaniel_PortugueseBrazil_ResponsiveVoice"
     name = "Microsoft Daniel - Portuguese (Brazil)"
 
@@ -2852,7 +2852,7 @@ class MicrosoftDaniel_PortugueseBrazil(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPavel_RussianRussia(ResponsiveVoice):
+class MicrosoftPavelRussianRussia(ResponsiveVoice):
     uri = "MicrosoftPavel_RussianRussia_ResponsiveVoice"
     name = "Microsoft Pavel - Russian (Russia)"
 
@@ -2862,7 +2862,7 @@ class MicrosoftPavel_RussianRussia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftKangkang_ChineseSimplifiedPRC(ResponsiveVoice):
+class MicrosoftKangkangChineseSimplifiedPRC(ResponsiveVoice):
     uri = "MicrosoftKangkang_ChineseSimplifiedPRC_ResponsiveVoice"
     name = "Microsoft Kangkang - Chinese (Simplified, PRC)"
 
@@ -2872,7 +2872,7 @@ class MicrosoftKangkang_ChineseSimplifiedPRC(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftDanny_ChineseTraditionalHongKongSAR(ResponsiveVoice):
+class MicrosoftDannyChineseTraditionalHongKongSAR(ResponsiveVoice):
     uri = "MicrosoftDanny_ChineseTraditionalHongKongSAR_ResponsiveVoice"
     name = "Microsoft Danny - Chinese (Traditional, Hong Kong S.A.R.)"
 
@@ -2882,7 +2882,7 @@ class MicrosoftDanny_ChineseTraditionalHongKongSAR(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftYating_ChineseTraditionalTaiwan(ResponsiveVoice):
+class MicrosoftYatingChineseTraditionalTaiwan(ResponsiveVoice):
     uri = "MicrosoftYating_ChineseTraditionalTaiwan_ResponsiveVoice"
     name = "Microsoft Yating - Chinese (Traditional, Taiwan)"
 
@@ -2892,7 +2892,7 @@ class MicrosoftYating_ChineseTraditionalTaiwan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftZhiwei_ChineseTraditionalTaiwan(ResponsiveVoice):
+class MicrosoftZhiweiChineseTraditionalTaiwan(ResponsiveVoice):
     uri = "MicrosoftZhiwei_ChineseTraditionalTaiwan_ResponsiveVoice"
     name = "Microsoft Zhiwei - Chinese (Traditional, Taiwan)"
 
@@ -2902,7 +2902,7 @@ class MicrosoftZhiwei_ChineseTraditionalTaiwan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHortenseMobile_FrenchFrance(ResponsiveVoice):
+class MicrosoftHortenseMobileFrenchFrance(ResponsiveVoice):
     uri = "MicrosoftHortenseMobile_FrenchFrance_ResponsiveVoice"
     name = "Microsoft Hortense Mobile - French (France)"
 
@@ -2912,7 +2912,7 @@ class MicrosoftHortenseMobile_FrenchFrance(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHanhanMobile_ChineseTraditionalTaiwan(ResponsiveVoice):
+class MicrosoftHanhanMobileChineseTraditionalTaiwan(ResponsiveVoice):
     uri = "MicrosoftHanhanMobile_ChineseTraditionalTaiwan_ResponsiveVoice"
     name = "Microsoft Hanhan Mobile - Chinese (Traditional, Taiwan)"
 
@@ -2922,7 +2922,7 @@ class MicrosoftHanhanMobile_ChineseTraditionalTaiwan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHeamiMobile_KoreanKorean(ResponsiveVoice):
+class MicrosoftHeamiMobileKoreanKorean(ResponsiveVoice):
     uri = "MicrosoftHeamiMobile_KoreanKorean_ResponsiveVoice"
     name = "Microsoft Heami Mobile - Korean (Korean)"
 
@@ -2932,7 +2932,7 @@ class MicrosoftHeamiMobile_KoreanKorean(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftStefanMobile_GermanGermany(ResponsiveVoice):
+class MicrosoftStefanMobileGermanGermany(ResponsiveVoice):
     uri = "MicrosoftStefanMobile_GermanGermany_ResponsiveVoice"
     name = "Microsoft Stefan Mobile - German (Germany)"
 
@@ -2942,7 +2942,7 @@ class MicrosoftStefanMobile_GermanGermany(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftRaviMobile_EnglishIndia(ResponsiveVoice):
+class MicrosoftRaviMobileEnglishIndia(ResponsiveVoice):
     uri = "MicrosoftRaviMobile_EnglishIndia_ResponsiveVoice"
     name = "Microsoft Ravi Mobile - English (India)"
 
@@ -2952,7 +2952,7 @@ class MicrosoftRaviMobile_EnglishIndia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPabloMobile_SpanishSpain(ResponsiveVoice):
+class MicrosoftPabloMobileSpanishSpain(ResponsiveVoice):
     uri = "MicrosoftPabloMobile_SpanishSpain_ResponsiveVoice"
     name = "Microsoft Pablo Mobile - Spanish (Spain)"
 
@@ -2962,7 +2962,7 @@ class MicrosoftPabloMobile_SpanishSpain(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftRaulMobile_SpanishMexico(ResponsiveVoice):
+class MicrosoftRaulMobileSpanishMexico(ResponsiveVoice):
     uri = "MicrosoftRaulMobile_SpanishMexico_ResponsiveVoice"
     name = "Microsoft Raul Mobile - Spanish (Mexico)"
 
@@ -2972,7 +2972,7 @@ class MicrosoftRaulMobile_SpanishMexico(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPaulMobile_FrenchFrance(ResponsiveVoice):
+class MicrosoftPaulMobileFrenchFrance(ResponsiveVoice):
     uri = "MicrosoftPaulMobile_FrenchFrance_ResponsiveVoice"
     name = "Microsoft Paul Mobile - French (France)"
 
@@ -2982,7 +2982,7 @@ class MicrosoftPaulMobile_FrenchFrance(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftCosimoMobile_ItalianItaly(ResponsiveVoice):
+class MicrosoftCosimoMobileItalianItaly(ResponsiveVoice):
     uri = "MicrosoftCosimoMobile_ItalianItaly_ResponsiveVoice"
     name = "Microsoft Cosimo Mobile - Italian (Italy)"
 
@@ -2992,7 +2992,7 @@ class MicrosoftCosimoMobile_ItalianItaly(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftIchiroMobile_JapaneseJapan(ResponsiveVoice):
+class MicrosoftIchiroMobileJapaneseJapan(ResponsiveVoice):
     uri = "MicrosoftIchiroMobile_JapaneseJapan_ResponsiveVoice"
     name = "Microsoft Ichiro Mobile - Japanese (Japan)"
 
@@ -3002,7 +3002,7 @@ class MicrosoftIchiroMobile_JapaneseJapan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftAdamMobile_PolishPoland(ResponsiveVoice):
+class MicrosoftAdamMobilePolishPoland(ResponsiveVoice):
     uri = "MicrosoftAdamMobile_PolishPoland_ResponsiveVoice"
     name = "Microsoft Adam Mobile - Polish (Poland)"
 
@@ -3012,7 +3012,7 @@ class MicrosoftAdamMobile_PolishPoland(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftDanielMobile_PortugueseBrazil(ResponsiveVoice):
+class MicrosoftDanielMobilePortugueseBrazil(ResponsiveVoice):
     uri = "MicrosoftDanielMobile_PortugueseBrazil_ResponsiveVoice"
     name = "Microsoft Daniel Mobile - Portuguese (Brazil)"
 
@@ -3022,7 +3022,7 @@ class MicrosoftDanielMobile_PortugueseBrazil(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPavelMobile_RussianRussia(ResponsiveVoice):
+class MicrosoftPavelMobileRussianRussia(ResponsiveVoice):
     uri = "MicrosoftPavelMobile_RussianRussia_ResponsiveVoice"
     name = "Microsoft Pavel Mobile - Russian (Russia)"
 
@@ -3032,7 +3032,7 @@ class MicrosoftPavelMobile_RussianRussia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftKangkangMobile_ChineseSimplifiedPRC(ResponsiveVoice):
+class MicrosoftKangkangMobileChineseSimplifiedPRC(ResponsiveVoice):
     uri = "MicrosoftKangkangMobile_ChineseSimplifiedPRC_ResponsiveVoice"
     name = "Microsoft Kangkang Mobile - Chinese (Simplified, PRC)"
 
@@ -3042,7 +3042,7 @@ class MicrosoftKangkangMobile_ChineseSimplifiedPRC(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftDannyMobile_ChineseTraditionalHongKongSAR(ResponsiveVoice):
+class MicrosoftDannyMobileChineseTraditionalHongKongSAR(ResponsiveVoice):
     uri = "MicrosoftDannyMobile_ChineseTraditionalHongKongSAR_ResponsiveVoice"
     name = "Microsoft Danny Mobile - Chinese (Traditional, Hong Kong S.A.R.)"
 
@@ -3052,7 +3052,7 @@ class MicrosoftDannyMobile_ChineseTraditionalHongKongSAR(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftYatingMobile_ChineseTraditionalTaiwan(ResponsiveVoice):
+class MicrosoftYatingMobileChineseTraditionalTaiwan(ResponsiveVoice):
     uri = "MicrosoftYatingMobile_ChineseTraditionalTaiwan_ResponsiveVoice"
     name = "Microsoft Yating Mobile - Chinese (Traditional, Taiwan)"
 
@@ -3062,7 +3062,7 @@ class MicrosoftYatingMobile_ChineseTraditionalTaiwan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftZhiweiMobile_ChineseTraditionalTaiwan(ResponsiveVoice):
+class MicrosoftZhiweiMobileChineseTraditionalTaiwan(ResponsiveVoice):
     uri = "MicrosoftZhiweiMobile_ChineseTraditionalTaiwan_ResponsiveVoice"
     name = "Microsoft Zhiwei Mobile - Chinese (Traditional, Taiwan)"
 
@@ -3072,7 +3072,7 @@ class MicrosoftZhiweiMobile_ChineseTraditionalTaiwan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftDavidDesktop_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftDavidDesktopEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftDavidDesktop_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft David Desktop - English (United States)"
 
@@ -3082,7 +3082,7 @@ class MicrosoftDavidDesktop_EnglishUnitedStates(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftZiraDesktop_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftZiraDesktopEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftZiraDesktop_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft Zira Desktop - English (United States)"
 
@@ -3092,7 +3092,7 @@ class MicrosoftZiraDesktop_EnglishUnitedStates(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftMarkDesktop_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftMarkDesktopEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftMarkDesktop_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft Mark Desktop - English (United States)"
 
@@ -3102,7 +3102,7 @@ class MicrosoftMarkDesktop_EnglishUnitedStates(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftGeorgeDesktop_EnglishUnitedKingdom(ResponsiveVoice):
+class MicrosoftGeorgeDesktopEnglishUnitedKingdom(ResponsiveVoice):
     uri = "MicrosoftGeorgeDesktop_EnglishUnitedKingdom_ResponsiveVoice"
     name = "Microsoft George Desktop - English (United Kingdom)"
 
@@ -3112,7 +3112,7 @@ class MicrosoftGeorgeDesktop_EnglishUnitedKingdom(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftSusanDesktop_EnglishUnitedKingdom(ResponsiveVoice):
+class MicrosoftSusanDesktopEnglishUnitedKingdom(ResponsiveVoice):
     uri = "MicrosoftSusanDesktop_EnglishUnitedKingdom_ResponsiveVoice"
     name = "Microsoft Susan Desktop - English (United Kingdom)"
 
@@ -3122,7 +3122,7 @@ class MicrosoftSusanDesktop_EnglishUnitedKingdom(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHazelDesktop_EnglishUnitedKingdom(ResponsiveVoice):
+class MicrosoftHazelDesktopEnglishUnitedKingdom(ResponsiveVoice):
     uri = "MicrosoftHazelDesktop_EnglishUnitedKingdom_ResponsiveVoice"
     name = "Microsoft Hazel Desktop - English (United Kingdom)"
 
@@ -3132,7 +3132,7 @@ class MicrosoftHazelDesktop_EnglishUnitedKingdom(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHeeraDesktop_EnglishIndia(ResponsiveVoice):
+class MicrosoftHeeraDesktopEnglishIndia(ResponsiveVoice):
     uri = "MicrosoftHeeraDesktop_EnglishIndia_ResponsiveVoice"
     name = "Microsoft Heera Desktop - English (India)"
 
@@ -3142,7 +3142,7 @@ class MicrosoftHeeraDesktop_EnglishIndia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftIrinaDesktop_RussianRussia(ResponsiveVoice):
+class MicrosoftIrinaDesktopRussianRussia(ResponsiveVoice):
     uri = "MicrosoftIrinaDesktop_RussianRussia_ResponsiveVoice"
     name = "Microsoft Irina Desktop - Russian (Russia)"
 
@@ -3152,7 +3152,7 @@ class MicrosoftIrinaDesktop_RussianRussia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHeddaDesktop_GermanGermany(ResponsiveVoice):
+class MicrosoftHeddaDesktopGermanGermany(ResponsiveVoice):
     uri = "MicrosoftHeddaDesktop_GermanGermany_ResponsiveVoice"
     name = "Microsoft Hedda Desktop - German (Germany)"
 
@@ -3162,7 +3162,7 @@ class MicrosoftHeddaDesktop_GermanGermany(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftKatjaDesktop_GermanGermany(ResponsiveVoice):
+class MicrosoftKatjaDesktopGermanGermany(ResponsiveVoice):
     uri = "MicrosoftKatjaDesktop_GermanGermany_ResponsiveVoice"
     name = "Microsoft Katja Desktop - German (Germany)"
 
@@ -3172,7 +3172,7 @@ class MicrosoftKatjaDesktop_GermanGermany(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHelenaDesktop_SpanishSpain(ResponsiveVoice):
+class MicrosoftHelenaDesktopSpanishSpain(ResponsiveVoice):
     uri = "MicrosoftHelenaDesktop_SpanishSpain_ResponsiveVoice"
     name = "Microsoft Helena Desktop - Spanish (Spain)"
 
@@ -3182,7 +3182,7 @@ class MicrosoftHelenaDesktop_SpanishSpain(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftLauraDesktop_SpanishSpain(ResponsiveVoice):
+class MicrosoftLauraDesktopSpanishSpain(ResponsiveVoice):
     uri = "MicrosoftLauraDesktop_SpanishSpain_ResponsiveVoice"
     name = "Microsoft Laura Desktop - Spanish (Spain)"
 
@@ -3192,7 +3192,7 @@ class MicrosoftLauraDesktop_SpanishSpain(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftSabinaDesktop_SpanishMexico(ResponsiveVoice):
+class MicrosoftSabinaDesktopSpanishMexico(ResponsiveVoice):
     uri = "MicrosoftSabinaDesktop_SpanishMexico_ResponsiveVoice"
     name = "Microsoft Sabina Desktop - Spanish (Mexico)"
 
@@ -3202,7 +3202,7 @@ class MicrosoftSabinaDesktop_SpanishMexico(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftJulieDesktop_FrenchFrance(ResponsiveVoice):
+class MicrosoftJulieDesktopFrenchFrance(ResponsiveVoice):
     uri = "MicrosoftJulieDesktop_FrenchFrance_ResponsiveVoice"
     name = "Microsoft Julie Desktop - French (France)"
 
@@ -3212,7 +3212,7 @@ class MicrosoftJulieDesktop_FrenchFrance(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPaulinaDesktop_PolishPoland(ResponsiveVoice):
+class MicrosoftPaulinaDesktopPolishPoland(ResponsiveVoice):
     uri = "MicrosoftPaulinaDesktop_PolishPoland_ResponsiveVoice"
     name = "Microsoft Paulina Desktop - Polish (Poland)"
 
@@ -3222,7 +3222,7 @@ class MicrosoftPaulinaDesktop_PolishPoland(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHuihuiDesktop_ChineseSimplifiedPRC(ResponsiveVoice):
+class MicrosoftHuihuiDesktopChineseSimplifiedPRC(ResponsiveVoice):
     uri = "MicrosoftHuihuiDesktop_ChineseSimplifiedPRC_ResponsiveVoice"
     name = "Microsoft Huihui Desktop - Chinese (Simplified, PRC)"
 
@@ -3232,7 +3232,7 @@ class MicrosoftHuihuiDesktop_ChineseSimplifiedPRC(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftYaoyaoDesktop_ChineseSimplifiedPRC(ResponsiveVoice):
+class MicrosoftYaoyaoDesktopChineseSimplifiedPRC(ResponsiveVoice):
     uri = "MicrosoftYaoyaoDesktop_ChineseSimplifiedPRC_ResponsiveVoice"
     name = "Microsoft Yaoyao Desktop - Chinese (Simplified, PRC)"
 
@@ -3242,7 +3242,7 @@ class MicrosoftYaoyaoDesktop_ChineseSimplifiedPRC(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftTracyDesktop_ChineseTraditionalHongKongSAR(ResponsiveVoice):
+class MicrosoftTracyDesktopChineseTraditionalHongKongSAR(ResponsiveVoice):
     uri = "MicrosoftTracyDesktop_ChineseTraditionalHongKongSAR_ResponsiveVoice"
     name = "Microsoft Tracy Desktop - Chinese (Traditional, Hong Kong S.A.R.)"
 
@@ -3252,7 +3252,7 @@ class MicrosoftTracyDesktop_ChineseTraditionalHongKongSAR(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftElsaDesktop_ItalianItaly(ResponsiveVoice):
+class MicrosoftElsaDesktopItalianItaly(ResponsiveVoice):
     uri = "MicrosoftElsaDesktop_ItalianItaly_ResponsiveVoice"
     name = "Microsoft Elsa Desktop - Italian (Italy)"
 
@@ -3262,7 +3262,7 @@ class MicrosoftElsaDesktop_ItalianItaly(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftMariaDesktop_PortugueseBrazil(ResponsiveVoice):
+class MicrosoftMariaDesktopPortugueseBrazil(ResponsiveVoice):
     uri = "MicrosoftMariaDesktop_PortugueseBrazil_ResponsiveVoice"
     name = "Microsoft Maria Desktop - Portuguese (Brazil)"
 
@@ -3272,7 +3272,7 @@ class MicrosoftMariaDesktop_PortugueseBrazil(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftAyumiDesktop_JapaneseJapan(ResponsiveVoice):
+class MicrosoftAyumiDesktopJapaneseJapan(ResponsiveVoice):
     uri = "MicrosoftAyumiDesktop_JapaneseJapan_ResponsiveVoice"
     name = "Microsoft Ayumi Desktop - Japanese (Japan)"
 
@@ -3282,7 +3282,7 @@ class MicrosoftAyumiDesktop_JapaneseJapan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHarukaDesktop_JapaneseJapan(ResponsiveVoice):
+class MicrosoftHarukaDesktopJapaneseJapan(ResponsiveVoice):
     uri = "MicrosoftHarukaDesktop_JapaneseJapan_ResponsiveVoice"
     name = "Microsoft Haruka Desktop - Japanese (Japan)"
 
@@ -3292,7 +3292,7 @@ class MicrosoftHarukaDesktop_JapaneseJapan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHortenseDesktop_FrenchFrance(ResponsiveVoice):
+class MicrosoftHortenseDesktopFrenchFrance(ResponsiveVoice):
     uri = "MicrosoftHortenseDesktop_FrenchFrance_ResponsiveVoice"
     name = "Microsoft Hortense Desktop - French (France)"
 
@@ -3302,7 +3302,7 @@ class MicrosoftHortenseDesktop_FrenchFrance(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHanhanDesktop_ChineseTraditionalTaiwan(ResponsiveVoice):
+class MicrosoftHanhanDesktopChineseTraditionalTaiwan(ResponsiveVoice):
     uri = "MicrosoftHanhanDesktop_ChineseTraditionalTaiwan_ResponsiveVoice"
     name = "Microsoft Hanhan Desktop - Chinese (Traditional, Taiwan)"
 
@@ -3312,7 +3312,7 @@ class MicrosoftHanhanDesktop_ChineseTraditionalTaiwan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHeamiDesktop_KoreanKorean(ResponsiveVoice):
+class MicrosoftHeamiDesktopKoreanKorean(ResponsiveVoice):
     uri = "MicrosoftHeamiDesktop_KoreanKorean_ResponsiveVoice"
     name = "Microsoft Heami Desktop - Korean (Korean)"
 
@@ -3322,7 +3322,7 @@ class MicrosoftHeamiDesktop_KoreanKorean(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftStefanDesktop_GermanGermany(ResponsiveVoice):
+class MicrosoftStefanDesktopGermanGermany(ResponsiveVoice):
     uri = "MicrosoftStefanDesktop_GermanGermany_ResponsiveVoice"
     name = "Microsoft Stefan Desktop - German (Germany)"
 
@@ -3332,7 +3332,7 @@ class MicrosoftStefanDesktop_GermanGermany(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftRaviDesktop_EnglishIndia(ResponsiveVoice):
+class MicrosoftRaviDesktopEnglishIndia(ResponsiveVoice):
     uri = "MicrosoftRaviDesktop_EnglishIndia_ResponsiveVoice"
     name = "Microsoft Ravi Desktop - English (India)"
 
@@ -3342,7 +3342,7 @@ class MicrosoftRaviDesktop_EnglishIndia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPabloDesktop_SpanishSpain(ResponsiveVoice):
+class MicrosoftPabloDesktopSpanishSpain(ResponsiveVoice):
     uri = "MicrosoftPabloDesktop_SpanishSpain_ResponsiveVoice"
     name = "Microsoft Pablo Desktop - Spanish (Spain)"
 
@@ -3352,7 +3352,7 @@ class MicrosoftPabloDesktop_SpanishSpain(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftRaulDesktop_SpanishMexico(ResponsiveVoice):
+class MicrosoftRaulDesktopSpanishMexico(ResponsiveVoice):
     uri = "MicrosoftRaulDesktop_SpanishMexico_ResponsiveVoice"
     name = "Microsoft Raul Desktop - Spanish (Mexico)"
 
@@ -3362,7 +3362,7 @@ class MicrosoftRaulDesktop_SpanishMexico(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPaulDesktop_FrenchFrance(ResponsiveVoice):
+class MicrosoftPaulDesktopFrenchFrance(ResponsiveVoice):
     uri = "MicrosoftPaulDesktop_FrenchFrance_ResponsiveVoice"
     name = "Microsoft Paul Desktop - French (France)"
 
@@ -3372,7 +3372,7 @@ class MicrosoftPaulDesktop_FrenchFrance(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftCosimoDesktop_ItalianItaly(ResponsiveVoice):
+class MicrosoftCosimoDesktopItalianItaly(ResponsiveVoice):
     uri = "MicrosoftCosimoDesktop_ItalianItaly_ResponsiveVoice"
     name = "Microsoft Cosimo Desktop - Italian (Italy)"
 
@@ -3382,7 +3382,7 @@ class MicrosoftCosimoDesktop_ItalianItaly(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftIchiroDesktop_JapaneseJapan(ResponsiveVoice):
+class MicrosoftIchiroDesktopJapaneseJapan(ResponsiveVoice):
     uri = "MicrosoftIchiroDesktop_JapaneseJapan_ResponsiveVoice"
     name = "Microsoft Ichiro Desktop - Japanese (Japan)"
 
@@ -3392,7 +3392,7 @@ class MicrosoftIchiroDesktop_JapaneseJapan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftAdamDesktop_PolishPoland(ResponsiveVoice):
+class MicrosoftAdamDesktopPolishPoland(ResponsiveVoice):
     uri = "MicrosoftAdamDesktop_PolishPoland_ResponsiveVoice"
     name = "Microsoft Adam Desktop - Polish (Poland)"
 
@@ -3402,7 +3402,7 @@ class MicrosoftAdamDesktop_PolishPoland(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftDanielDesktop_PortugueseBrazil(ResponsiveVoice):
+class MicrosoftDanielDesktopPortugueseBrazil(ResponsiveVoice):
     uri = "MicrosoftDanielDesktop_PortugueseBrazil_ResponsiveVoice"
     name = "Microsoft Daniel Desktop - Portuguese (Brazil)"
 
@@ -3412,7 +3412,7 @@ class MicrosoftDanielDesktop_PortugueseBrazil(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftPavelDesktop_RussianRussia(ResponsiveVoice):
+class MicrosoftPavelDesktopRussianRussia(ResponsiveVoice):
     uri = "MicrosoftPavelDesktop_RussianRussia_ResponsiveVoice"
     name = "Microsoft Pavel Desktop - Russian (Russia)"
 
@@ -3422,7 +3422,7 @@ class MicrosoftPavelDesktop_RussianRussia(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftKangkangDesktop_ChineseSimplifiedPRC(ResponsiveVoice):
+class MicrosoftKangkangDesktopChineseSimplifiedPRC(ResponsiveVoice):
     uri = "MicrosoftKangkangDesktop_ChineseSimplifiedPRC_ResponsiveVoice"
     name = "Microsoft Kangkang Desktop - Chinese (Simplified, PRC)"
 
@@ -3432,7 +3432,7 @@ class MicrosoftKangkangDesktop_ChineseSimplifiedPRC(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftDannyDesktop_ChineseTraditionalHongKongSAR(ResponsiveVoice):
+class MicrosoftDannyDesktopChineseTraditionalHongKongSAR(ResponsiveVoice):
     uri = "MicrosoftDannyDesktop_ChineseTraditionalHongKongSAR_ResponsiveVoice"
     name = "Microsoft Danny Desktop - Chinese (Traditional, Hong Kong S.A.R.)"
 
@@ -3442,7 +3442,7 @@ class MicrosoftDannyDesktop_ChineseTraditionalHongKongSAR(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftYatingDesktop_ChineseTraditionalTaiwan(ResponsiveVoice):
+class MicrosoftYatingDesktopChineseTraditionalTaiwan(ResponsiveVoice):
     uri = "MicrosoftYatingDesktop_ChineseTraditionalTaiwan_ResponsiveVoice"
     name = "Microsoft Yating Desktop - Chinese (Traditional, Taiwan)"
 
@@ -3452,7 +3452,7 @@ class MicrosoftYatingDesktop_ChineseTraditionalTaiwan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftZhiweiDesktop_ChineseTraditionalTaiwan(ResponsiveVoice):
+class MicrosoftZhiweiDesktopChineseTraditionalTaiwan(ResponsiveVoice):
     uri = "MicrosoftZhiweiDesktop_ChineseTraditionalTaiwan_ResponsiveVoice"
     name = "Microsoft Zhiwei Desktop - Chinese (Traditional, Taiwan)"
 
@@ -3472,7 +3472,7 @@ class Martin(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class Daniel(ResponsiveVoice):
+class FrenchDaniel(ResponsiveVoice):
     uri = "Daniel_ResponsiveVoice"
     name = "Daniel"
 
@@ -3492,7 +3492,7 @@ class Hattori(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class Li_mu(ResponsiveVoice):
+class LiMu(ResponsiveVoice):
     uri = "Li_mu_ResponsiveVoice"
     name = "Li-mu"
 
@@ -3532,7 +3532,7 @@ class Nicky(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHanhanDesktop_ChineseTaiwan(ResponsiveVoice):
+class MicrosoftHanhanDesktopChineseTaiwan(ResponsiveVoice):
     uri = "MicrosoftHanhanDesktop_ChineseTaiwan_ResponsiveVoice"
     name = "Microsoft Hanhan Desktop - Chinese (Taiwan)"
 
@@ -3542,7 +3542,7 @@ class MicrosoftHanhanDesktop_ChineseTaiwan(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftHeamiDesktop_Korean(ResponsiveVoice):
+class MicrosoftHeamiDesktopKorean(ResponsiveVoice):
     uri = "MicrosoftHeamiDesktop_Korean_ResponsiveVoice"
     name = "Microsoft Heami Desktop - Korean"
 
@@ -3582,7 +3582,7 @@ class FallbackArabicMale(ResponsiveVoice):
                          voice_name="", service="g3")
 
 
-class FallbackChinese(ResponsiveVoice):
+class FallbackChinese2(ResponsiveVoice):
     uri = "FallbackChinese_ResponsiveVoice"
     name = "Fallback Chinese"
 
@@ -3772,7 +3772,7 @@ class FallbackDutchMale(ResponsiveVoice):
                          voice_name="", service="g3")
 
 
-class MicrosoftAnna_EnglishUnitedStates(ResponsiveVoice):
+class MicrosoftAnnaEnglishUnitedStates(ResponsiveVoice):
     uri = "MicrosoftAnna_EnglishUnitedStates_ResponsiveVoice"
     name = "Microsoft Anna - English (United States)"
 
@@ -3782,7 +3782,7 @@ class MicrosoftAnna_EnglishUnitedStates(ResponsiveVoice):
                          voice_name="", service="")
 
 
-class MicrosoftLili_ChineseChina(ResponsiveVoice):
+class MicrosoftLiliChineseChina(ResponsiveVoice):
     uri = "MicrosoftLili_ChineseChina_ResponsiveVoice"
     name = "Microsoft Lili - Chinese (China)"
 

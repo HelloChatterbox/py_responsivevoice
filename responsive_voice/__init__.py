@@ -2,7 +2,7 @@ import requests
 import subprocess
 
 
-class ResponsiveVoice(object):
+class ResponsiveVoice:
     # Api
     API_URL = "http://responsivevoice.org/responsivevoice/getvoice.php"
 

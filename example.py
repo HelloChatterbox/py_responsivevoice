@@ -7,15 +7,15 @@ engine.say("hello world",
            rate=0.45)
 
 engine = ResponsiveVoice(lang=ResponsiveVoice.PORTUGUESE_BR)
-file_path = engine.get_mp3(u"olá mundo")
+file_path = engine.get_mp3("olá mundo")
 engine.play_mp3(file_path)
 
 from responsive_voice.voices import EnglishIndia, UKEnglishMale, \
-    FallbackUKEnglishMale
+    PortuguesePortugal
 
 india = EnglishIndia()
 uk = UKEnglishMale()
-uk2 = FallbackUKEnglishMale()
+pt = PortuguesePortugal()
 india.say("hello world")
 uk.say("hello world")
-uk2.say("hello world")
+pt.say("olá mundo")
