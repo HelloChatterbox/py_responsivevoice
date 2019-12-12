@@ -5,7 +5,7 @@ setup(
     name='ResponsiveVoice',
     version='0.4.1',
     packages=['responsive_voice'],
-    url='https://github.com/JarbasAl/py_responsivevoice',
+    url='https://github.com/OpenJarbas/py_responsivevoice',
     install_requires=["requests"],
     license='Apache2',
     author='jarbasAI',
