@@ -9,6 +9,7 @@ if platform.system() == "Windows":
         import playsound
     except ImportError:
         print("run pip install playsound")
+        raise
 else:
     playsound = None
 
