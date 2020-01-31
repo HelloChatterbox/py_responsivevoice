@@ -1,5 +1,8 @@
 import requests
 import subprocess
+import platform
+import tempfile
+import playsound
 
 
 class ResponsiveVoice:
@@ -60,21 +63,26 @@ class ResponsiveVoice:
         self.gender = gender or ResponsiveVoice.UNKNOWN_GENDER
         self.service = service
         self.voice_name = voice_name
+        self.os = platform.system()
+        self.tempDir = "/tmp" if self.os != "Windows" else tempfile.gettempdir()
 
     @staticmethod
     def play_mp3(mp3_file, play_cmd="mpg123 -q %1", blocking=False):
-        play_mp3_cmd = str(play_cmd).split(" ")
-        for index, cmd in enumerate(play_mp3_cmd):
-            if cmd == "%1":
-                play_mp3_cmd[index] = mp3_file
-        if blocking:
-            return subprocess.call(play_mp3_cmd)
+        if (play_cmd == ""):
+            playsound.playsound(mp3_file, blocking)
         else:
-            return subprocess.Popen(play_mp3_cmd)
+            play_mp3_cmd = str(play_cmd).split(" ")
+            for index, cmd in enumerate(play_mp3_cmd):
+                if cmd == "%1":
+                    play_mp3_cmd[index] = mp3_file
+            if blocking:
+                return subprocess.call(play_mp3_cmd)
+            else:
+                return subprocess.Popen(play_mp3_cmd)
 
     def get_mp3(self, sentence, mp3_file=None, pitch=None, rate=None,
                 vol=None, gender=None):
-        mp3_file = mp3_file or "/tmp/" + str(hash(sentence))
+        mp3_file = mp3_file or (self.tempDir + "/" + str(hash(sentence)))
         if not mp3_file.endswith(".mp3"):
             mp3_file += ".mp3"
 
