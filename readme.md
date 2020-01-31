@@ -53,7 +53,7 @@ say(sentence, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=
 - *rate* : The rate (speed) of the speaker, value between 0 and 1.
 - *vol* : The volume (loudness) of the speaker, value between 0 and 1.
 - *gender* : The gender of the speaker. E.g. `ResponsiveVoice.FEMALE`
-- *play_cmd* : The command used to play the file.
+- *play_cmd* : The command used to play the file.  (Ignored for Windows OS. Library playsound would be used).
 - *blocking* : Wether the program should wait until speaking is finished or not.
 
 ```python

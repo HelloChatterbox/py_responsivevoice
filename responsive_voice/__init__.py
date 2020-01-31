@@ -75,6 +75,7 @@ class ResponsiveVoice:
 
     @staticmethod
     def play_mp3(mp3_file, play_cmd="mpg123 -q %1", blocking=False):
+        # TODO support windows shell commands
 
         if playsound is not None:
             playsound.playsound(mp3_file, blocking)
