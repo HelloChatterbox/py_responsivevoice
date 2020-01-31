@@ -2,7 +2,15 @@ import requests
 import subprocess
 import platform
 import tempfile
-import playsound
+import os
+
+if platform.system() == "Windows":
+    try:
+        import playsound
+    except ImportError:
+        print("run pip install playsound")
+else:
+    playsound = None
 
 
 class ResponsiveVoice:
@@ -63,12 +71,11 @@ class ResponsiveVoice:
         self.gender = gender or ResponsiveVoice.UNKNOWN_GENDER
         self.service = service
         self.voice_name = voice_name
-        self.os = platform.system()
-        self.tempDir = "/tmp" if self.os != "Windows" else tempfile.gettempdir()
 
     @staticmethod
     def play_mp3(mp3_file, play_cmd="mpg123 -q %1", blocking=False):
-        if (play_cmd == ""):
+
+        if playsound is not None:
             playsound.playsound(mp3_file, blocking)
         else:
             play_mp3_cmd = str(play_cmd).split(" ")
@@ -82,7 +89,7 @@ class ResponsiveVoice:
 
     def get_mp3(self, sentence, mp3_file=None, pitch=None, rate=None,
                 vol=None, gender=None):
-        mp3_file = mp3_file or (self.tempDir + "/" + str(hash(sentence)))
+        mp3_file = mp3_file or os.path.join(tempfile.gettempdir(), str(hash(sentence)))
         if not mp3_file.endswith(".mp3"):
             mp3_file += ".mp3"
 
@@ -98,6 +105,9 @@ class ResponsiveVoice:
         }
 
         r = requests.get(self.API_URL, params)
+        if os.path.isfile(mp3_file):
+            os.unlink(mp3_file)
+
         with open(mp3_file, "wb") as f:
             f.write(r.content)
         return mp3_file

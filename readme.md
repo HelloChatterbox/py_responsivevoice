@@ -60,7 +60,7 @@ say(sentence, mp3_file=None, lang=None, pitch=None, rate=None, vol=None, gender=
 play_mp3(mp3_file, play_cmd="mpg123 %1", blocking=False)
 ```
 - *mp3_file* : The name of the mp3 file you want to play.
-- *play_cmd* : The command used to play the file (For *Windows OS*, set as "" to use playsound library).
+- *play_cmd* : The command used to play the file.
 - *blocking* : Whether the program should wait until playback is finished or not.
 
 ```python
