@@ -2,6 +2,8 @@
 
 Unofficial python API for [Responsive Voice](https://responsivevoice.org)
 
+WARNING: responsive voice changed something, this package is known to NOT be working since 2020/02/21
+
   * [Install](#install)
   * [Example](#example)
     * [Voices](#voices)
