@@ -100,7 +100,7 @@ class ResponsiveVoice:
         params = {
             # key extracted from wordpress plugin - FQ9r4hgY
             # alternate key from Bundler - HY7lTyiS
-            "key": "HY7lTyiS",
+            "key": self.key,
             "t": sentence,
             "tl": self.lang,
             "pitch": pitch or self.pitch,

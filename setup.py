@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='ResponsiveVoice',
-    version='0.5.0',
+    version='0.5.1',
     packages=['responsive_voice'],
     url='https://github.com/OpenJarbas/py_responsivevoice',
     install_requires=["requests"],
