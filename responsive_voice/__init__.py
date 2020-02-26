@@ -15,7 +15,6 @@ else:
 
 
 class ResponsiveVoice:
-    # Api
     API_URL = "http://responsivevoice.org/responsivevoice/getvoice.php"
 
     # Genders
@@ -64,7 +63,7 @@ class ResponsiveVoice:
 
     def __init__(self, lang=None, gender=None,
                  pitch=0.5, rate=0.5, vol=1,
-                 voice_name="", service=""):
+                 voice_name="", service="", key=None):
         self.pitch = pitch
         self.rate = rate
         self.vol = vol
@@ -72,6 +71,9 @@ class ResponsiveVoice:
         self.gender = gender or ResponsiveVoice.UNKNOWN_GENDER
         self.service = service
         self.voice_name = voice_name
+        # key extracted from wordpress plugin - FQ9r4hgY
+        # alternate key from Bundler - HY7lTyiS
+        self.key = key or "FQ9r4hgY"
 
     @staticmethod
     def play_mp3(mp3_file, play_cmd="mpg123 -q %1", blocking=False):
@@ -96,6 +98,9 @@ class ResponsiveVoice:
             mp3_file += ".mp3"
 
         params = {
+            # key extracted from wordpress plugin - FQ9r4hgY
+            # alternate key from Bundler - HY7lTyiS
+            "key": "HY7lTyiS",
             "t": sentence,
             "tl": self.lang,
             "pitch": pitch or self.pitch,

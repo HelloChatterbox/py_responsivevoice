@@ -8,6 +8,9 @@ Unofficial python API for [Responsive Voice](https://responsivevoice.org)
   * [Usage](#usage)
   * [Credits](#credits)
   
+Last tested with [ResponsiveVoice - Version 1.6.1](https://responsivevoice.org/change-log/)
+
+
 # Install
 ```bash
 pip install ResponsiveVoice
