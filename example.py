@@ -1,6 +1,7 @@
 from responsive_voice import ResponsiveVoice
 
 engine = ResponsiveVoice()
+engine.default_play_cmd = "mpg123 -o pulse -q %1"
 engine.say("hello world")
 engine.say("hello world",
            gender=ResponsiveVoice.MALE,

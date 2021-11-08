@@ -61,9 +61,11 @@ class ResponsiveVoice:
     GREEK = "el-GR"
     JAPANESE = "ja-JP"
 
+    default_play_cmd = "mpg123 -q %1"
+
     def __init__(self, lang=None, gender=None,
                  pitch=0.5, rate=0.5, vol=1,
-                 voice_name="", service="", key=None):
+                 voice_name="", service="", key=None, default_play_command=default_play_cmd):
         self.pitch = pitch
         self.rate = rate
         self.vol = vol
@@ -74,9 +76,11 @@ class ResponsiveVoice:
         # key extracted from wordpress plugin - FQ9r4hgY
         # alternate key from Bundler - HY7lTyiS
         self.key = key or "FQ9r4hgY"
+        default_play_cmd = default_play_command
+
 
     @staticmethod
-    def play_mp3(mp3_file, play_cmd="mpg123 -q %1", blocking=False):
+    def play_mp3(mp3_file, play_cmd=default_play_cmd, blocking=False):
         # TODO support windows shell commands
 
         if playsound is not None:
@@ -121,7 +125,7 @@ class ResponsiveVoice:
 
     def say(self, sentence, mp3_file=None, pitch=None, rate=None, vol=None,
             gender=None,
-            play_cmd="mpg123 -q %1", blocking=True):
+            play_cmd=default_play_cmd, blocking=True):
         filename = self.get_mp3(sentence, mp3_file, pitch=pitch,
                                 rate=rate, vol=vol, gender=gender)
         self.play_mp3(filename, play_cmd, blocking)
